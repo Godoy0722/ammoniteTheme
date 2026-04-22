@@ -1,8 +1,8 @@
 # Ammonite Theme
 
-An OJS theme designed by the Geological Survey of Denmark and Greenland.
+An OJS theme designed by the Geological Survey of Denmark and Greenland and contributed to the OJS community.
 
-Compatible with OJS 3.4.0-x.
+Compatible with OJS 3.4+.
 
 The theme is a child of the **Health Sciences** theme (`healthsciencesthemeplugin`), so all options provided by that parent theme (such as the `baseColour` primary colour, typography, etc.) remain available in addition to the options listed below.
 
