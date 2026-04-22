@@ -1,6 +1,6 @@
 # Ammonite Theme
 
-An OJS theme designed by the Geological Survey of Denmark and Greenland.
+An OJS theme designed by the Geological Survey of Denmark and Greenland and contributed to the OJS community.
 
 Compatible with OJS 3.5.0-x.
 
