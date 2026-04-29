@@ -33,14 +33,14 @@
                         {if !is_null($submission->firstSubcategory)}
                             <div class="row mb-2 mx-0">
                                 <span class="ammonite-breadcrumb-text px-0">
-                                    {$submission->firstSubcategory->getLocalizedData('title')}
+                                    {$submission->firstSubcategory->getLocalizedData('title')|escape}
                                 </span>
                             </div>
                         {/if}
                         {if !!$publication->getLocalizedCoverImageUrl($submission->getData('contextId')) || !!$defaultArticleImage}
                             <div class="row mx-0">
                                 <a href="{if $journal}{url journal=$journal->getPath() page='article' op='view' path=$articlePath}{else}{url page='article' op='view' path=$articlePath}{/if}" class="px-0">
-                                    <img src="{if !!$coverImage}{$publication->getLocalizedCoverImageUrl($submission->getData('contextId'))|escape}{else}{$defaultArticleImage}{/if}"
+                                    <img src="{if !!$coverImage}{$publication->getLocalizedCoverImageUrl($submission->getData('contextId'))|escape}{else}{$defaultArticleImage|escape}{/if}"
 										alt="{if !!$coverImage}{$coverImage.altText|escape|default:''}{else}{translate key='plugins.themes.ammonite.noArticleCoverImageAltText'}{/if}" class="w-100 img-cover" style="height: 170px; object-fit: cover; object-position: center;">
                                 </a>
                             </div>
@@ -78,7 +78,7 @@
 
                         <div class="row mt-3 mb-2 mx-0">
                             <span class="ammonite-breadcrumb-text px-0">
-                                {$submission->section->getLocalizedTitle()}
+                                {$submission->section->getLocalizedTitle()|escape}
                             </span>
                             <span class="ammonite-breadcrumb-text px-0">
                                 {$publication->getData('datePublished')|date_format:$dateFormatLong}

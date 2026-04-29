@@ -44,7 +44,7 @@
 						src="{if !!$coverImage}
 								{$publication->getLocalizedCoverImageUrl($article->getData('contextId'))|escape}
 							{else}
-								{$defaultArticleImage}
+								{$defaultArticleImage|escape}
 							{/if}"
 						alt="{if !!$coverImage}{$coverImage.altText|escape|default:''}{else}{translate key="plugins.themes.ammonite.noArticleCoverImageAltText"}{/if}"
 						class="ammonite-article-summary-img"
@@ -58,7 +58,7 @@
 			{if !is_null($article->firstSubcategory)}
 				<div class="col-12 mx-0 mt-3 mb-2 d-flex d-sm-none">
 					<span class="ammonite-breadcrumb-text px-0">
-						{$article->firstSubcategory->getLocalizedData('title')}
+						{$article->firstSubcategory->getLocalizedData('title')|escape}
 					</span>
 				</div>
 			{/if}
@@ -77,7 +77,7 @@
 				{if !is_null($article->firstSubcategory)}
 					<div class="row mb-2 mx-0 d-none d-sm-flex">
 						<span class="ammonite-breadcrumb-text px-0">
-							{$article->firstSubcategory->getLocalizedData('title')}
+							{$article->firstSubcategory->getLocalizedData('title')|escape}
 						</span>
 					</div>
 				{/if}

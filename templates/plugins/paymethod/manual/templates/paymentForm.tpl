@@ -36,7 +36,7 @@
 			</table>
 		</div>
 
-		<p>{$manualInstructions|nl2br}</p>
+		<p>{$manualInstructions|nl2br|strip_unsafe_html}</p>
 
 		<p>
 			<a href="{url page="payment" op="plugin" path="ManualPayment"|to_array:"notify":$queuedPaymentId}">

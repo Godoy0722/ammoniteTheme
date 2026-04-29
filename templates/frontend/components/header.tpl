@@ -34,7 +34,7 @@
 					</div>
 
                     <div class="d-flex d-mid-md-none align-items-center justify-content-end">
-                        <a class="ammonite-header-section-text p-2 me-2 d-flex align-items-center" href={url page="search"}>
+                        <a class="ammonite-header-section-text p-2 me-2 d-flex align-items-center" href="{url page="search"}">
 							<span class="visually-hidden">{translate key="common.search"}</span>
                             <i class="fa fa-solid fa-magnifying-glass" aria-hidden="true"></i>
                         </a>

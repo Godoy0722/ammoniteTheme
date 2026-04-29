@@ -14,7 +14,7 @@
  * @uses $issueGalleys array Galleys for the entire issue
  * @uses $primaryGenreIds array List of file genre IDs for primary types
  *}
-{include file="frontend/components/header.tpl" pageTitleTranslated=$issueIdentification}
+{include file="frontend/components/header.tpl" pageTitleTranslated=$issueIdentification|escape}
 
 {* Display a message if no current issue exists *}
 {if !$issue}

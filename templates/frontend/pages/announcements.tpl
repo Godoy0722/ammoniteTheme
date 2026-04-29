@@ -25,7 +25,7 @@
 	<div class="row mt-4">
 		<div class="col-12 max-w-sm-900">
 			<span class="ammonite-regular-text ammonite-announcements-description">
-				{$announcementsIntroduction}
+				{$announcementsIntroduction|strip_unsafe_html}
 			</span>
 		</div>
 	</div>

@@ -69,7 +69,7 @@
 				<div class="ammonite-regular-text">
 					<p>{translate key="about.submissionPreparationChecklist.description"}</p>
 
-					{$submissionChecklist}
+					{$submissionChecklist|strip_unsafe_html}
 				</div>
 			</div>
 		</div>
@@ -90,7 +90,7 @@
 
 		<div class="row">
 			<div class="col-12 max-w-sm-900 ammonite-regular-text">
-				{$currentContext->getLocalizedData('authorGuidelines')}
+				{$currentContext->getLocalizedData('authorGuidelines')|strip_unsafe_html}
 			</div>
 		</div>
 
@@ -111,7 +111,7 @@
 
 			<div class="row">
 				<div class="col-12 max-w-sm-900 ammonite-regular-text">
-					{$section->getLocalizedPolicy()}
+					{$section->getLocalizedPolicy()|strip_unsafe_html}
 
 					{if $isUserLoggedIn}
 						{capture assign="sectionSubmissionUrl"}{url page="submission" op="wizard" sectionId=$section->getId()}{/capture}
@@ -133,7 +133,7 @@
 
 		<div class="row">
 			<div class="col-12 max-w-sm-900 ammonite-regular-text">
-				{$currentContext->getLocalizedData('copyrightNotice')}
+				{$currentContext->getLocalizedData('copyrightNotice')|strip_unsafe_html}
 			</div>
 		</div>
 
@@ -153,7 +153,7 @@
 
 		<div class="row">
 			<div class="col-12 max-w-sm-900 ammonite-regular-text">
-				{$currentContext->getLocalizedData('privacyStatement')}
+				{$currentContext->getLocalizedData('privacyStatement')|strip_unsafe_html}
 			</div>
 		</div>
 

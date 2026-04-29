@@ -30,7 +30,7 @@
             <div class="row justify-content-between align-items-center mx-0">
                 <div class="col-8 col-sm-6 col-xl-4 ps-0 ammonite-hero-subheading-text">
                     <div class="ammonite-additional-home-content-text ammonite-breadcrumb-text mb-0">
-                        {$currentJournal->getLocalizedData("additionalHomeContent")}
+                        {$currentJournal->getLocalizedData("additionalHomeContent")|strip_unsafe_html}
                     </div>
                 </div>
 

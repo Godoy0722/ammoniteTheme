@@ -51,9 +51,9 @@
 
 				<div class="row">
 					<span class="ammonite-breadcrumb-text mb-4">
-						{translate key="plugins.themes.ammonite.resumedVolume"} {$issue->getVolume()} ({$issue->getYear()})
+						{translate key="plugins.themes.ammonite.resumedVolume"} {$issue->getVolume()|escape} ({$issue->getYear()|escape})
 						{if $issue->getNumber()}
-							{translate key="issue.number"} {$issue->getNumber()}
+							{translate key="issue.number"} {$issue->getNumber()|escape}
 						{/if}
 					</span>
 				</div>
@@ -66,9 +66,9 @@
 			{else}
 				<div class="row">
 					<span class="ammonite-breadcrumb-text mb-3">
-						{translate key="issue.vol"} {$issue->getVolume()} ({$issue->getYear()})
+						{translate key="issue.vol"} {$issue->getVolume()|escape} ({$issue->getYear()|escape})
 						{if $issue->getNumber()}
-							{translate key="issue.number"} {$issue->getNumber()}
+							{translate key="issue.number"} {$issue->getNumber()|escape}
 						{/if}
 					</span>
 				</div>

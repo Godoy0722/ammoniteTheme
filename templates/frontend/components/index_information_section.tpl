@@ -27,7 +27,7 @@
 
                         <div class="row">
                             <span class="ammonite-regular-text">
-                                {$currentJournal->getLocalizedData('authorInformation')}
+                                {$currentJournal->getLocalizedData('authorInformation')|strip_unsafe_html}
                             </span>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                         <div class="row mb-2">
                             <h3 class="ammonite-h3-text">
                                 {if $activeTheme->getOption('homepageInformationBlockTitle') && $activeTheme->getOption('homepageInformationBlockContent')}
-                                    {$activeTheme->getOption('homepageInformationBlockTitle')}
+                                    {$activeTheme->getOption('homepageInformationBlockTitle')|escape}
                                 {else}
                                     {translate key="user.role.readers"}
                                 {/if}
@@ -50,9 +50,9 @@
                         <div class="row">
                             <span class="ammonite-regular-text">
                                 {if $activeTheme->getOption('homepageInformationBlockTitle') && $activeTheme->getOption('homepageInformationBlockContent')}
-                                    {$activeTheme->getOption('homepageInformationBlockContent')}
+                                    {$activeTheme->getOption('homepageInformationBlockContent')|strip_unsafe_html}
                                 {else}
-                                    {$currentJournal->getLocalizedData('readerInformation')}
+                                    {$currentJournal->getLocalizedData('readerInformation')|strip_unsafe_html}
                                 {/if}
                             </span>
                         </div>
@@ -69,7 +69,7 @@
 
                         <div class="row">
                             <span class="ammonite-regular-text">
-                                {$currentJournal->getLocalizedData('librarianInformation')}
+                                {$currentJournal->getLocalizedData('librarianInformation')|strip_unsafe_html}
                             </span>
                         </div>
                     </div>

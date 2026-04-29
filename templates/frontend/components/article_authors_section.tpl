@@ -22,9 +22,9 @@
             {if $issue}
                 <div class="row max-w-sm-900 my-3 my-md-0">
                     <span class="ammonite-breadcrumb-text">
-                        {translate key="issue.vol"} {$issue->getVolume()} ({$issue->getYear()})
+                        {translate key="issue.vol"} {$issue->getVolume()|escape} ({$issue->getYear()|escape})
                         {if $issue->getNumber()}|
-                            {translate key="issue.number"} {$issue->getNumber()}
+                            {translate key="issue.number"} {$issue->getNumber()|escape}
                         {/if}
                     </span>
                 </div>
@@ -32,14 +32,14 @@
 
             <div class="row max-w-sm-900">
                 <h1 class="ammonite-h2-text">
-                    {$publication->getLocalizedTitle()|escape}
+                    {$publication->getLocalizedTitle(null, 'html')|strip_unsafe_html}
                 </h1>
             </div>
 
             <div class="row d-none d-md-flex align-items-center justify-content-between max-w-sm-900 mb-4">
                 <div class="col-4">
                     <span class="ammonite-breadcrumb-text">
-                        {$section->getLocalizedTitle()}
+                        {$section->getLocalizedTitle()|escape}
                     </span>
                 </div>
 
@@ -82,8 +82,8 @@
                             {if $author->getData('orcid') or $author->getLocalizedData('affiliation')}
                                 <div class="ammonite-breadcrumb-text ammonite-author-data cursor-pointer d-flex align-items-center"
                                     style="color: #0c63e4;"
-                                    data-affiliation="{if $author->getLocalizedData('affiliation')}{$author->getLocalizedData('affiliation')}{else}{/if}"
-                                    data-author={$author->getFullName()|escape}
+                                    data-affiliation="{if $author->getLocalizedData('affiliation')}{$author->getLocalizedData('affiliation')|escape}{else}{/if}"
+                                    data-author="{$author->getFullName()|escape}"
                                     data-orcid="{if $author->getData('orcid')}{$author->getData('orcid')|escape}{else}{/if}">
                                     <span class="plus-minus-icon ms-1">+</span>
                                     {if $orcidIcon && $author->getData('orcid')}
@@ -104,7 +104,7 @@
             <div class="row d-flex d-md-none align-items-center justify-content-between max-w-sm-900 mt-4">
                 <div class="col-12">
                     <span class="ammonite-breadcrumb-text">
-                        {$section->getLocalizedTitle()}
+                        {$section->getLocalizedTitle()|escape}
                     </span>
                 </div>
 

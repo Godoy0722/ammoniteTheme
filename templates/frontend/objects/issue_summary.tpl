@@ -18,23 +18,23 @@
 <div class="col-6 col-sm-4 col-xl-2 mb-5 me-xl-2">
 	<a href="{url op="view" path=$issue->getBestIssueId()}" class="text-decoration-none">
 		<div class="row mb-4 mx-0">
-			<img src="{if !!$issueCover}{$issueCover|escape}{elseif $defaultIssueCoverImg}{$defaultIssueCoverImg}{/if}"
+			<img src="{if !!$issueCover}{$issueCover|escape}{elseif $defaultIssueCoverImg}{$defaultIssueCoverImg|escape}{/if}"
 				alt="{if !!$issueCover}{$issue->getLocalizedCoverImageAltText()|escape|default:''}{else}{translate key="plugins.themes.ammonite.noIssueCoverImageAltText"}{/if}"
 				class="ammonite-issue-cover-img px-0">
 		</div>
 
 		<div class="row mb-4">
 			<span class="ammonite-breadcrumb-text" style="max-width: 180px!important;">
-				{translate key="issue.vol"} {$issue->getVolume()} ({$issue->getYear()})
+				{translate key="issue.vol"} {$issue->getVolume()|escape} ({$issue->getYear()|escape})
 				{if $issue->getNumber()}
-					{translate key="issue.number"} {$issue->getNumber()}
+					{translate key="issue.number"} {$issue->getNumber()|escape}
 				{/if}
 			</span>
 		</div>
 
 		<div class="row">
 			<span class="ammonite-breadcrumb-text pe-0" style="max-width: 180px!important;">
-				{$issueTitle}
+				{$issueTitle|escape}
 			</span>
 		</div>
 	</a>

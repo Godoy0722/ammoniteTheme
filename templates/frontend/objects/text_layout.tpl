@@ -16,7 +16,7 @@
 <div class="row mt-4">
 	<div class="col-12 max-w-sm-900">
 		<h1 class="ammonite-h1-text">
-			{$title}
+			{$title|escape}
 		</h1>
 	</div>
 </div>
@@ -24,7 +24,7 @@
 <div class="row">
 	<div class="col-12 max-w-sm-900">
 		<span class="ammonite-regular-text">
-			{$content}
+			{$content|strip_unsafe_html}
 		</span>
 	</div>
 </div>
