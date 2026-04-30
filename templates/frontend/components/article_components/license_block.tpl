@@ -36,6 +36,6 @@
     </div>
 
     <div class="ammonite-license ammonite-breadcrumb-text">
-        {$currentContext->getLocalizedData('licenseTerms')}
+        {$currentContext->getLocalizedData('licenseTerms')|strip_unsafe_html}
     </div>
 </div>

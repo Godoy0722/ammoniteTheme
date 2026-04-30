@@ -73,7 +73,7 @@
 {if $isPrimaryGalley}
     <a class="ammonite-secondary-button me-1 py-1 px-2 text-decoration-none mb-2"
         href="{url page=$page op="view" path=$path}">
-        <span class="ammonite-regular-text mb-0">{$galley->getGalleyLabel()}</span>
+        <span class="ammonite-regular-text mb-0">{$galley->getGalleyLabel()|escape}</span>
     </a>
 {else}
     {* Don't be frightened. This is just a link *}
@@ -82,7 +82,7 @@
         <a href="{url page=$page op="view" path=$path}"
             class="ammonite-regular-text mb-2 {if !$articleDetails}text-decoration-none{else}text-decoration-underline{/if}"
             {if !$articleDetails}style="font-weight: var(--font-weight-bold)!important;" {/if} {if $labelledBy}
-        aria-labelledby={$labelledBy}{/if}>
+        aria-labelledby="{$labelledBy|escape}"{/if}>
         {* Add some screen reader text to indicate if a galley is restricted *}
         {if $restricted}
             <span class="visually-hidden">

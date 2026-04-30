@@ -25,7 +25,7 @@
     {* Header wrapper *}
     <header class="d-flex justify-content-between align-items-center flex-nowrap mx-0" style="height: 40px;">
         <div class="d-flex align-items-center" style="width: 40px!important;">
-            <a href="{$parentUrl}" class="ammonite-primary-button py-2 px-3" style="height: 40px;">
+            <a href="{$parentUrl|escape}" class="ammonite-primary-button py-2 px-3" style="height: 40px;">
                 <i class="fas fa-solid fa-arrow-left" aria-hidden="true"></i>
             </a>
         </div>
@@ -47,14 +47,14 @@
         {/if}
 
         <div class="d-none d-sm-flex align-items-center" style="width: 137px!important;">
-            <a href="{$pdfUrl}" class="ammonite-primary-button py-2 px-3" download style="height: 40px;">
+            <a href="{$pdfUrl|escape}" class="ammonite-primary-button py-2 px-3" download style="height: 40px;">
                 <span class="label">{translate key="common.download"}</span>
                 <span class="sr-only">{translate key="common.downloadPdf"}</span>
             </a>
         </div>
 
         <div class="d-flex d-sm-none align-items-center" style="width: 50px!important;">
-            <a href="{$pdfUrl}" class="ammonite-primary-button py-2 px-3" download style="height: 40px;">
+            <a href="{$pdfUrl|escape}" class="ammonite-primary-button py-2 px-3" download style="height: 40px;">
                 <i class="fas fa-solid fa-download" aria-hidden="true"></i>
                 <span class="sr-only">{translate key="common.downloadPdf"}</span>
             </a>

@@ -24,14 +24,14 @@
                     {if $footerClientLogo}
                         <div class="row justify-content-center align-items-center mb-5">
                         <a
-                            href="{if $activeTheme->getOption('footerClientLogoLink')}{$activeTheme->getOption('footerClientLogoLink')}{else}{url page="index" router=$smarty.const.ROUTE_PAGE}{/if}"
+                            href="{if $activeTheme->getOption('footerClientLogoLink')}{$activeTheme->getOption('footerClientLogoLink')|escape}{else}{url page="index" router=$smarty.const.ROUTE_PAGE}{/if}"
                             class="ps-sm-0"
                         >
                             <img
                                 class="img-fluid"
                                 width="80%"
                                 height="80"
-                                src="{$footerClientLogo}"
+                                src="{$footerClientLogo|escape}"
                                 alt="{$activeTheme->getOption('footerClientLogoAltText')|escape}"
                             >
                         </a>
@@ -54,7 +54,7 @@
 
         <div class="col-12 col-md-4 mt-5 mt-md-0 d-flex flex-column-reverse flex-md-column px-0">
             <div class="ammonite-footer-block-text">
-                {$currentContext->getLocalizedData('pageFooter')}
+                {$currentContext->getLocalizedData('pageFooter')|strip_unsafe_html}
             </div>
 
             <div class="d-flex align-items-center mt-0 mt-md-5 mb-5 mb-md-0">

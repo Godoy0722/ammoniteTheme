@@ -17,6 +17,6 @@
     {if $messageKey}
         {translate key=$messageKey}
     {else}
-        {$message}
+        {$message|escape}
     {/if}
 </div>

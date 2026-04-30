@@ -96,7 +96,7 @@
         <div class="row mb-2 px-2 max-w-xl-1200 main-content-layout mx-xl-auto">
             <div class="col">
                 <h3 class="fw-light">
-                    {$publication->getLocalizedData('subtitle')|escape}
+                    {$publication->getLocalizedSubTitle(null, 'html')|strip_unsafe_html}
                 </h3>
             </div>
         </div>
@@ -112,7 +112,7 @@
                     <img src="{$publication->getLocalizedCoverImageUrl($article->getData('contextId'))|escape}"
                         alt="{$coverImage.altText|escape|default:''}" class="img-fluid article-cover-image-column">
                 {elseif $defaultArticleImage}
-                    <img src="{$defaultArticleImage}" alt="{translate key="plugins.themes.ammonite.noArticleCoverImageAltText"}"
+                    <img src="{$defaultArticleImage|escape}" alt="{translate key="plugins.themes.ammonite.noArticleCoverImageAltText"}"
                         class="img-fluid article-cover-image-column">
                 {else}
                     <a href="{url page="issue" op="view" path=$issue->getBestIssueId()}">
@@ -509,7 +509,7 @@
                     <div class='col-lg-4 px-0 d-flex issue-cover-image-section px-0 mt-4 mt-lg-0'>
                         <a href="{url page="issue" op="view" path=$issue->getBestIssueId()}">
                             <img
-                                src="{if !!$issueCover}{$issueCover|escape}{elseif $defaultIssueCoverImg}{$defaultIssueCoverImg}{/if}"
+                                src="{if !!$issueCover}{$issueCover|escape}{elseif $defaultIssueCoverImg}{$defaultIssueCoverImg|escape}{/if}"
                                 alt="
                                     {if !!$issueCover}
                                         {$issueCoverAltText|escape|default:$defaultAltText}

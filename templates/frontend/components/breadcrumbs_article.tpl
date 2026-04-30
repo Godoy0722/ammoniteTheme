@@ -16,7 +16,7 @@
  *}
 
 <div class="row mx-0 mt-3">
-	<div class="col-12 ps-0>
+	<div class="col-12 ps-0">
 		<nav role="navigation" aria-label="{translate key="navigation.breadcrumbLabel"}">
 			<ol class="breadcrumb align-items-center">
 				<li class="breadcrumb-item">
@@ -35,7 +35,7 @@
 					<li class="breadcrumb-item">
 						<a href="{url page="issue" op="view" path=$issue->getBestIssueId()}"
 							class="ammonite-breadcrumb-text text-decoration-none">
-							{$issue->getIssueIdentification()}
+							{$issue->getIssueIdentification()|escape}
 						</a>
 					</li>
 				{/if}

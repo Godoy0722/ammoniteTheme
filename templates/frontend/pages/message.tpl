@@ -25,13 +25,13 @@
 		<div class="col-12 max-w-sm-900">
 			<span class="ammonite-regular-text">
 				{if $messageTranslated}
-					<p>{$messageTranslated}</p>
+					<p>{$messageTranslated|escape}</p>
 				{else}
 					<p>{translate key=$message}</p>
 				{/if}
 
 				{if $backLink}
-					<p><a href="{$backLink}">{translate key=$backLinkLabel}</a></p>
+					<p><a href="{$backLink|escape}">{translate key=$backLinkLabel}</a></p>
 				{/if}
 			</span>
 		</div>

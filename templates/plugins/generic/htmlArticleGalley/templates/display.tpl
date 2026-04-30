@@ -37,7 +37,7 @@
             {else}
                 <a href="{url page="article" op="view" path=$article->getBestId()}"
                     class="ammonite-breadcrumb-text ms-2 fw-semibold text-truncate text-left" style="width: 100%;">
-                    {$galleyPublication->getLocalizedTitle()|escape}
+                    {$galleyPublication->getLocalizedTitle()|strip_unsafe_html}
                 </a>
                 {capture assign="htmlUrl"}
                     {url page="article" op="download" path=$article->getBestId()|to_array:$galley->getBestGalleyId() inline=true}

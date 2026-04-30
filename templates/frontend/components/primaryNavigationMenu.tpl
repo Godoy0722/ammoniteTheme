@@ -80,7 +80,7 @@
                 <div class="col d-flex">
                     {if $currentContext && $requestedPage !== 'search'}
                         <a class="ammonite-header-section-text py-2 d-flex align-items-center justify-content-end"
-                            href={url page="search"}>
+                            href="{url page="search"}">
                             <span>{translate key="common.search"}&nbsp;</span>
                             <i class="fa fa-solid fa-magnifying-glass" aria-hidden="true"></i>
                         </a>
