@@ -45,11 +45,7 @@ class AmmoniteThemePlugin extends \PKP\plugins\ThemePlugin
         $this->setupOptions();
 
         // CSS and JS
-        $this->addStyle(
-            'font-body',
-            'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap',
-            ['baseUrl' => '']
-        );
+        $this->addStyle('font-body', 'css/open-sans.css');
 
         $this->addStyle('font-awesome', 'css/fa_all.min.css');
         $this->addStyle('custom-theme-style', 'less/index.less');
