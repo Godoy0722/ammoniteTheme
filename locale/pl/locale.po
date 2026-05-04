@@ -9,268 +9,268 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2022-11-16T00:00:00+00:00\n"
 "PO-Revision-Date: 2022-11-16T00:00:00+00:00\n"
-"Language: \n"
+"Language: pl\n"
 
 msgid "plugins.themes.ammonite.name"
-msgstr "Ammonite Theme"
+msgstr "Motyw Ammonite"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "An OJS theme designed for the Geological Survey of Denmark and Greenland, based on Health Sciences. Requires the Health Sciences theme to be installed; otherwise this theme will not load its styles, templates or hooks."
+msgstr "Motyw OJS zaprojektowany dla Służby Geologicznej Danii i Grenlandii, oparty na Health Sciences. Wymaga zainstalowanego motywu Health Sciences; w przeciwnym razie ten motyw nie wczyta swoich styli, szablonów ani hooków."
 
 msgid "plugins.themes.ammonite.parentMissing"
-msgstr "The Ammonite Theme requires the Health Sciences theme to be installed. Install Health Sciences before activating Ammonite Theme; otherwise its styles and templates will not load."
+msgstr "Motyw Ammonite wymaga zainstalowanego motywu Health Sciences. Zainstaluj Health Sciences przed aktywacją motywu Ammonite; w przeciwnym razie jego style i szablony nie zostaną wczytane."
 
 msgid "plugins.themes.ammonite.journalNews"
-msgstr "Journal news"
+msgstr "Aktualności czasopisma"
 
 msgid "plugins.themes.ammonite.download"
-msgstr "Download"
+msgstr "Pobierz"
 
 msgid "plugins.themes.ammonite.share"
-msgstr "Share"
+msgstr "Udostępnij"
 
 msgid "plugins.themes.ammonite.latestIssue"
-msgstr "Latest Issue"
+msgstr "Najnowszy numer"
 
 msgid "plugins.themes.ammonite.resumedVolume"
-msgstr "Vol."
+msgstr "t."
 
 msgid "plugins.themes.ammonite.readMoreInThisIssue"
-msgstr "Read More In This Issue"
+msgstr "Przeczytaj więcej w tym numerze"
 
 msgid "plugins.themes.ammonite.browseCurrentIssue"
-msgstr "Browse issue"
+msgstr "Przeglądaj numer"
 
 msgid "plugins.themes.ammonite.funding"
-msgstr "Funding"
+msgstr "Finansowanie"
 
 msgid "plugins.themes.ammonite.metrics"
-msgstr "Metrics"
+msgstr "Metryki"
 
 msgid "plugins.themes.ammonite.submitManuscript"
-msgstr "Submit a manuscript"
+msgstr "Zgłoś manuskrypt"
 
 msgid "plugins.themes.ammonite.information"
-msgstr "Information"
+msgstr "Informacje"
 
 msgid "plugins.themes.ammonite.librarians"
-msgstr "Librarians"
+msgstr "Bibliotekarze"
 
 msgid "plugins.themes.ammonite.reviewers"
-msgstr "Reviewers"
+msgstr "Recenzenci"
 
 msgid "plugins.themes.ammonite.becomeAnEditor"
-msgstr "Become an Editor"
+msgstr "Zostań redaktorem"
 
 msgid "plugins.themes.ammonite.becomeAReviewer"
-msgstr "Become a Reviewer"
+msgstr "Zostań recenzentem"
 
 msgid "plugins.themes.ammonite.privacy"
-msgstr "Privacy"
+msgstr "Prywatność"
 
 msgid "plugins.themes.ammonite.cookies"
-msgstr "Cookies"
+msgstr "Pliki cookie"
 
 msgid "plugins.themes.ammonite.rssFeed"
-msgstr "RSS Feed"
+msgstr "Kanał RSS"
 
 msgid "plugins.themes.ammonite.option.mainHomePageCategory.label"
-msgstr "First homepage category"
+msgstr "Pierwsza kategoria strony głównej"
 
 msgid "plugins.themes.ammonite.option.mainHomePageCategory.description"
-msgstr "Choose the first (top) category of articles to display on the homepage"
+msgstr "Wybierz pierwszą (główną) kategorię artykułów do wyświetlenia na stronie głównej"
 
 msgid "plugins.themes.ammonite.option.secondHomePageCategory.label"
-msgstr "Second homepage category"
+msgstr "Druga kategoria strony głównej"
 
 msgid "plugins.themes.ammonite.option.secondHomePageCategory.description"
-msgstr "Choose the second category of articles to display on the homepage"
+msgstr "Wybierz drugą kategorię artykułów do wyświetlenia na stronie głównej"
 
 msgid "plugins.themes.ammonite.option.thirdHomePageCategory.label"
-msgstr "Third homepage category"
+msgstr "Trzecia kategoria strony głównej"
 
 msgid "plugins.themes.ammonite.option.thirdHomePageCategory.description"
-msgstr "Choose the third category of articles to display on the homepage"
+msgstr "Wybierz trzecią kategorię artykułów do wyświetlenia na stronie głównej"
 
 msgid "plugins.themes.ammonite.option.none"
-msgstr "None"
+msgstr "Brak"
 
 msgid "plugins.themes.ammonite.option.categoryToListSubcategories.label"
-msgstr "Featured subcategories (as list)"
+msgstr "Wyróżnione podkategorie (jako lista)"
 
 msgid "plugins.themes.ammonite.option.categoryToListSubcategories.description"
-msgstr "Select a category (displayed on homepage as a list)"
+msgstr "Wybierz kategorię (wyświetlaną na stronie głównej jako lista)"
 
 msgid "plugins.themes.ammonite.option.homepageInformationContent.label"
-msgstr "Homepage information block content"
+msgstr "Zawartość bloku informacyjnego strony głównej"
 
 msgid "plugins.themes.ammonite.option.homepageInformationContent.description"
-msgstr "Enter the content for the homepage information block (displayed alongside information for Authors and Librarians)"
+msgstr "Wprowadź zawartość bloku informacyjnego strony głównej (wyświetlaną obok informacji dla autorów i bibliotekarzy)"
 
 msgid "plugins.themes.ammonite.homepageInformationTitle.label"
-msgstr "Homepage information block title"
+msgstr "Tytuł bloku informacyjnego strony głównej"
 
 msgid "plugins.themes.ammonite.homepageInformationTitle.description"
-msgstr "Enter the title for the homepage information block"
+msgstr "Wprowadź tytuł bloku informacyjnego strony głównej"
 
 msgid "plugins.themes.ammonite.option.submissionsQtd.label"
-msgstr "Homepage articles"
+msgstr "Artykuły na stronie głównej"
 
 msgid "plugins.themes.ammonite.option.submissionsQtd.description"
-msgstr "Enter the number of articles to be shown in each category on the homepage."
+msgstr "Wprowadź liczbę artykułów, które mają być wyświetlane w każdej kategorii na stronie głównej."
 
 msgid "plugins.themes.ammonite.option.footerClientLogo.label"
-msgstr "Logo for footer"
+msgstr "Logo stopki"
 
 msgid "plugins.themes.ammonite.option.footerClientLogo.description"
-msgstr "Select the logo file to be shown just above the OJS logo in the footer"
+msgstr "Wybierz plik logo, który ma być wyświetlany tuż nad logo OJS w stopce"
 
 msgid "plugins.themes.ammonite.option.socialMediaXLink.label"
-msgstr "Link for Social Media X"
+msgstr "Link do mediów społecznościowych X"
 
 msgid "plugins.themes.ammonite.option.socialMediaYouTubeLink.label"
-msgstr "Link for YouTube"
+msgstr "Link do YouTube"
 
 msgid "plugins.themes.ammonite.option.socialMediaLinkedInLink.label"
-msgstr "Link for LinkedIn"
+msgstr "Link do LinkedIn"
 
 msgid "plugins.themes.ammonite.option.socialMediaInstagramLink.label"
-msgstr "Link for Instagram"
+msgstr "Link do Instagram"
 
 msgid "plugins.themes.ammonite.settings.splashImage.selectLabel"
-msgstr "Select a file"
+msgstr "Wybierz plik"
 
 msgid "plugins.themes.ammonite.settings.footerItemOne.label"
-msgstr "Footer item 1 text"
+msgstr "Tekst elementu 1 stopki"
 
 msgid "plugins.themes.ammonite.settings.footerItemOne.description"
-msgstr "Enter the text for Footer item 1 to be shown in the footer links list"
+msgstr "Wprowadź tekst dla elementu 1 stopki, który ma być wyświetlany na liście linków w stopce"
 
 msgid "plugins.themes.ammonite.settings.footerItemOneUrl.label"
-msgstr "Footer item 1 URL"
+msgstr "URL elementu 1 stopki"
 
 msgid "plugins.themes.ammonite.settings.footerItemOneUrl.description"
-msgstr "Enter the URL for Footer Item 1 (will redirect the user)."
+msgstr "Wprowadź URL dla elementu 1 stopki (przekieruje użytkownika)."
 
 msgid "plugins.themes.ammonite.settings.footerItemTwo.label"
-msgstr "Footer item 2 text"
+msgstr "Tekst elementu 2 stopki"
 
 msgid "plugins.themes.ammonite.settings.footerItemTwo.description"
-msgstr "Enter the text for Footer item 2 to be shown in the footer links list."
+msgstr "Wprowadź tekst dla elementu 2 stopki, który ma być wyświetlany na liście linków w stopce."
 
 msgid "plugins.themes.ammonite.settings.footerItemTwoUrl.label"
-msgstr "Footer item 2 URL"
+msgstr "URL elementu 2 stopki"
 
 msgid "plugins.themes.ammonite.settings.footerItemTwoUrl.description"
-msgstr "URL that Footer item 2 (will redirect the user)."
+msgstr "URL, do którego element 2 stopki (przekieruje użytkownika)."
 
 msgid "plugins.themes.ammonite.settings.footerItemThree.label"
-msgstr "Footer item 3 text"
+msgstr "Tekst elementu 3 stopki"
 
 msgid "plugins.themes.ammonite.settings.footerItemThree.description"
-msgstr "Enter the text for Footer item 3 to be shown in the footer links list."
+msgstr "Wprowadź tekst dla elementu 3 stopki, który ma być wyświetlany na liście linków w stopce."
 
 msgid "plugins.themes.ammonite.settings.footerItemThreeUrl.label"
-msgstr "Footer item 3 URL"
+msgstr "URL elementu 3 stopki"
 
 msgid "plugins.themes.ammonite.settings.footerItemThreeUrl.description"
-msgstr "URL that Footer item 3 (will redirect the user)."
+msgstr "URL, do którego element 3 stopki (przekieruje użytkownika)."
 
 msgid "plugins.themes.ammonite.settings.journalNewsColour.label"
-msgstr "Colour for Journal news section background"
+msgstr "Kolor tła sekcji Aktualności czasopisma"
 
 msgid "plugins.themes.ammonite.settings.journalNewsColour.description"
-msgstr "Choose a colour to fill the Journal news section background on homepage."
+msgstr "Wybierz kolor do wypełnienia tła sekcji Aktualności czasopisma na stronie głównej."
 
 msgid "plugins.themes.ammonite.settings.informationBlockColour.label"
-msgstr "Colour for Information section background"
+msgstr "Kolor tła sekcji Informacje"
 
 msgid "plugins.themes.ammonite.settings.informationBlockColour.description"
-msgstr "Choose a colour to fill the Information section background on homepage."
+msgstr "Wybierz kolor do wypełnienia tła sekcji Informacje na stronie głównej."
 
 msgid "plugins.themes.ammonite.search.resultsFor"
-msgstr "Search results for"
+msgstr "Wyniki wyszukiwania dla"
 
 msgid "plugins.themes.ammonite.settings.defaultIssueCoverImage.label"
-msgstr "Default Image for Cover Issue"
+msgstr "Domyślny obraz okładki numeru"
 
 msgid "plugins.themes.ammonite.settings.defaultIssueCoverImage.description"
-msgstr "Choose an image to be used as a cover image when the issue doesn't have one."
+msgstr "Wybierz obraz, który zostanie użyty jako okładka, gdy numer jej nie posiada."
 
 msgid "plugins.themes.ammonite.settings.defaultArticleImage.label"
-msgstr "Default Image for Article"
+msgstr "Domyślny obraz artykułu"
 
 msgid "plugins.themes.ammonite.settings.defaultArticleImage.description"
-msgstr "Choose an image to be used for articles that don't have one."
+msgstr "Wybierz obraz, który zostanie użyty dla artykułów, które go nie posiadają."
 
 msgid "plugins.themes.ammonite.settings.categoryToShowChildOnArticle.label"
-msgstr "Category to show first child on article"
+msgstr "Kategoria do wyświetlenia pierwszej podkategorii na artykule"
 
 msgid "plugins.themes.ammonite.settings.categoryToShowChildOnArticle.description"
-msgstr "Choose a parent category and the system will show the first child category from this one that is assigned to the article."
+msgstr "Wybierz kategorię nadrzędną, a system wyświetli pierwszą podkategorię tej kategorii przypisaną do artykułu."
 
 msgid "plugins.themes.ammonite.settings.showHideSectionOnArticle.label"
-msgstr "Hide or Show section on the article's page"
+msgstr "Ukryj lub pokaż sekcję na stronie artykułu"
 
 msgid "plugins.themes.ammonite.settings.showHideSectionOnArticle.description"
-msgstr "If show, a section called 'section' will appear on the article landing page."
+msgstr "Jeśli pokaż, sekcja o nazwie 'sekcja' pojawi się na stronie docelowej artykułu."
 
 msgid "plugins.themes.ammonite.settings.showHideCategoryOnArticle.label"
-msgstr "Hide or Show categories section on the article's page"
+msgstr "Ukryj lub pokaż sekcję kategorii na stronie artykułu"
 
 msgid "plugins.themes.ammonite.settings.showHideCategoryOnArticle.description"
-msgstr "If show, a section called 'categories' will appear on the article landing page."
+msgstr "Jeśli pokaż, sekcja o nazwie 'kategorie' pojawi się na stronie docelowej artykułu."
 
 msgid "plugins.themes.ammonite.hide"
-msgstr "Hide"
+msgstr "Ukryj"
 
 msgid "plugins.themes.ammonite.show"
-msgstr "Show"
+msgstr "Pokaż"
 
 msgid "plugins.themes.ammonite.noArticleCoverImageAltText"
-msgstr "No article image set."
+msgstr "Brak ustawionego obrazu artykułu."
 
 msgid "plugins.themes.ammonite.noIssueCoverImageAltText"
-msgstr "Issue cover coming soon."
+msgstr "Okładka numeru wkrótce."
 
 msgid "plugins.themes.ammonite.searchInformation"
-msgstr "Use the search form to find published articles from our archives."
+msgstr "Użyj formularza wyszukiwania, aby znaleźć opublikowane artykuły z naszych archiwów."
 
 msgid "plugins.themes.ammonite.firstPage"
-msgstr "First Page"
+msgstr "Pierwsza strona"
 
 msgid "plugins.themes.ammonite.previousPage"
-msgstr "Previous Page"
+msgstr "Poprzednia strona"
 
 msgid "plugins.themes.ammonite.nextPage"
-msgstr "Next Page"
+msgstr "Następna strona"
 
 msgid "plugins.themes.ammonite.lastPage"
-msgstr "Last Page"
+msgstr "Ostatnia strona"
 
 msgid "plugins.themes.ammonite.footerClientLogoAltTextLabel"
-msgstr "Alt text for footer logo."
+msgstr "Tekst alternatywny logo stopki."
 
 msgid "plugins.themes.ammonite.footerClientLogoAltTextDescription"
-msgstr "The alt text for the footer logo image selected above."
+msgstr "Tekst alternatywny dla wybranego powyżej obrazu logo stopki."
 
 msgid "plugins.themes.ammonite.footerClientLogoLinkLabel"
-msgstr "The link for where the footer client logo should redirect."
+msgstr "Link, do którego ma przekierowywać logo klienta w stopce."
 
 msgid "plugins.themes.ammonite.footerClientLogoLinkDescription"
-msgstr "The link for where the footer logo image should redirect."
+msgstr "Link, do którego ma przekierowywać obraz logo w stopce."
 
 msgid "plugins.themes.ammonite.metadataToShowLabel"
-msgstr "Article metadata to show."
+msgstr "Metadane artykułu do wyświetlenia."
 
 msgid "plugins.themes.ammonite.metadataToShowDescription"
-msgstr "Select which of the following metadata can appear in the article page."
+msgstr "Wybierz, które z poniższych metadanych mogą pojawić się na stronie artykułu."
 
 msgid "plugins.themes.ammonite.categoriesToShowArticlesLabel"
-msgstr "Categories to show Articles on Homepage."
+msgstr "Kategorie do wyświetlania artykułów na stronie głównej."
 
 msgid "plugins.themes.ammonite.categoriesToShowArticlesDescription"
-msgstr "Choose the categories of articles to display on the homepage."
+msgstr "Wybierz kategorie artykułów do wyświetlenia na stronie głównej."
 
 msgid "plugins.themes.ammonite.categoriesDescription"
-msgstr "Categories"
+msgstr "Kategorie"

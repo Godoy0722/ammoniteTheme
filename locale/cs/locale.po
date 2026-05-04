@@ -9,268 +9,268 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2022-11-16T00:00:00+00:00\n"
 "PO-Revision-Date: 2022-11-16T00:00:00+00:00\n"
-"Language: \n"
+"Language: cs\n"
 
 msgid "plugins.themes.ammonite.name"
-msgstr "Ammonite Theme"
+msgstr "Motiv Ammonite"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "An OJS theme designed for the Geological Survey of Denmark and Greenland, based on Health Sciences. Requires the Health Sciences theme to be installed; otherwise this theme will not load its styles, templates or hooks."
+msgstr "Motiv OJS navržený pro Geologickou službu Dánska a Grónska, založený na Health Sciences. Vyžaduje instalaci motivu Health Sciences; jinak tento motiv nenačte své styly, šablony ani hooky."
 
 msgid "plugins.themes.ammonite.parentMissing"
-msgstr "The Ammonite Theme requires the Health Sciences theme to be installed. Install Health Sciences before activating Ammonite Theme; otherwise its styles and templates will not load."
+msgstr "Motiv Ammonite vyžaduje instalaci motivu Health Sciences. Před aktivací motivu Ammonite nainstalujte Health Sciences; jinak se jeho styly a šablony nenačtou."
 
 msgid "plugins.themes.ammonite.journalNews"
-msgstr "Journal news"
+msgstr "Novinky časopisu"
 
 msgid "plugins.themes.ammonite.download"
-msgstr "Download"
+msgstr "Stáhnout"
 
 msgid "plugins.themes.ammonite.share"
-msgstr "Share"
+msgstr "Sdílet"
 
 msgid "plugins.themes.ammonite.latestIssue"
-msgstr "Latest Issue"
+msgstr "Nejnovější číslo"
 
 msgid "plugins.themes.ammonite.resumedVolume"
-msgstr "Vol."
+msgstr "Roč."
 
 msgid "plugins.themes.ammonite.readMoreInThisIssue"
-msgstr "Read More In This Issue"
+msgstr "Přečtěte si více v tomto čísle"
 
 msgid "plugins.themes.ammonite.browseCurrentIssue"
-msgstr "Browse issue"
+msgstr "Procházet číslo"
 
 msgid "plugins.themes.ammonite.funding"
-msgstr "Funding"
+msgstr "Financování"
 
 msgid "plugins.themes.ammonite.metrics"
-msgstr "Metrics"
+msgstr "Metriky"
 
 msgid "plugins.themes.ammonite.submitManuscript"
-msgstr "Submit a manuscript"
+msgstr "Odeslat rukopis"
 
 msgid "plugins.themes.ammonite.information"
-msgstr "Information"
+msgstr "Informace"
 
 msgid "plugins.themes.ammonite.librarians"
-msgstr "Librarians"
+msgstr "Knihovníci"
 
 msgid "plugins.themes.ammonite.reviewers"
-msgstr "Reviewers"
+msgstr "Recenzenti"
 
 msgid "plugins.themes.ammonite.becomeAnEditor"
-msgstr "Become an Editor"
+msgstr "Staňte se editorem"
 
 msgid "plugins.themes.ammonite.becomeAReviewer"
-msgstr "Become a Reviewer"
+msgstr "Staňte se recenzentem"
 
 msgid "plugins.themes.ammonite.privacy"
-msgstr "Privacy"
+msgstr "Soukromí"
 
 msgid "plugins.themes.ammonite.cookies"
 msgstr "Cookies"
 
 msgid "plugins.themes.ammonite.rssFeed"
-msgstr "RSS Feed"
+msgstr "RSS kanál"
 
 msgid "plugins.themes.ammonite.option.mainHomePageCategory.label"
-msgstr "First homepage category"
+msgstr "První kategorie domovské stránky"
 
 msgid "plugins.themes.ammonite.option.mainHomePageCategory.description"
-msgstr "Choose the first (top) category of articles to display on the homepage"
+msgstr "Zvolte první (hlavní) kategorii článků pro zobrazení na domovské stránce"
 
 msgid "plugins.themes.ammonite.option.secondHomePageCategory.label"
-msgstr "Second homepage category"
+msgstr "Druhá kategorie domovské stránky"
 
 msgid "plugins.themes.ammonite.option.secondHomePageCategory.description"
-msgstr "Choose the second category of articles to display on the homepage"
+msgstr "Zvolte druhou kategorii článků pro zobrazení na domovské stránce"
 
 msgid "plugins.themes.ammonite.option.thirdHomePageCategory.label"
-msgstr "Third homepage category"
+msgstr "Třetí kategorie domovské stránky"
 
 msgid "plugins.themes.ammonite.option.thirdHomePageCategory.description"
-msgstr "Choose the third category of articles to display on the homepage"
+msgstr "Zvolte třetí kategorii článků pro zobrazení na domovské stránce"
 
 msgid "plugins.themes.ammonite.option.none"
-msgstr "None"
+msgstr "Žádná"
 
 msgid "plugins.themes.ammonite.option.categoryToListSubcategories.label"
-msgstr "Featured subcategories (as list)"
+msgstr "Doporučené podkategorie (jako seznam)"
 
 msgid "plugins.themes.ammonite.option.categoryToListSubcategories.description"
-msgstr "Select a category (displayed on homepage as a list)"
+msgstr "Vyberte kategorii (zobrazenou na domovské stránce jako seznam)"
 
 msgid "plugins.themes.ammonite.option.homepageInformationContent.label"
-msgstr "Homepage information block content"
+msgstr "Obsah informačního bloku domovské stránky"
 
 msgid "plugins.themes.ammonite.option.homepageInformationContent.description"
-msgstr "Enter the content for the homepage information block (displayed alongside information for Authors and Librarians)"
+msgstr "Zadejte obsah informačního bloku domovské stránky (zobrazen vedle informací pro autory a knihovníky)"
 
 msgid "plugins.themes.ammonite.homepageInformationTitle.label"
-msgstr "Homepage information block title"
+msgstr "Název informačního bloku domovské stránky"
 
 msgid "plugins.themes.ammonite.homepageInformationTitle.description"
-msgstr "Enter the title for the homepage information block"
+msgstr "Zadejte název informačního bloku domovské stránky"
 
 msgid "plugins.themes.ammonite.option.submissionsQtd.label"
-msgstr "Homepage articles"
+msgstr "Články na domovské stránce"
 
 msgid "plugins.themes.ammonite.option.submissionsQtd.description"
-msgstr "Enter the number of articles to be shown in each category on the homepage."
+msgstr "Zadejte počet článků, které mají být zobrazeny v každé kategorii na domovské stránce."
 
 msgid "plugins.themes.ammonite.option.footerClientLogo.label"
-msgstr "Logo for footer"
+msgstr "Logo pro zápatí"
 
 msgid "plugins.themes.ammonite.option.footerClientLogo.description"
-msgstr "Select the logo file to be shown just above the OJS logo in the footer"
+msgstr "Vyberte soubor loga, který bude zobrazen těsně nad logem OJS v zápatí"
 
 msgid "plugins.themes.ammonite.option.socialMediaXLink.label"
-msgstr "Link for Social Media X"
+msgstr "Odkaz na sociální síť X"
 
 msgid "plugins.themes.ammonite.option.socialMediaYouTubeLink.label"
-msgstr "Link for YouTube"
+msgstr "Odkaz na YouTube"
 
 msgid "plugins.themes.ammonite.option.socialMediaLinkedInLink.label"
-msgstr "Link for LinkedIn"
+msgstr "Odkaz na LinkedIn"
 
 msgid "plugins.themes.ammonite.option.socialMediaInstagramLink.label"
-msgstr "Link for Instagram"
+msgstr "Odkaz na Instagram"
 
 msgid "plugins.themes.ammonite.settings.splashImage.selectLabel"
-msgstr "Select a file"
+msgstr "Vyberte soubor"
 
 msgid "plugins.themes.ammonite.settings.footerItemOne.label"
-msgstr "Footer item 1 text"
+msgstr "Text položky 1 zápatí"
 
 msgid "plugins.themes.ammonite.settings.footerItemOne.description"
-msgstr "Enter the text for Footer item 1 to be shown in the footer links list"
+msgstr "Zadejte text pro položku 1 zápatí, která bude zobrazena v seznamu odkazů v zápatí"
 
 msgid "plugins.themes.ammonite.settings.footerItemOneUrl.label"
-msgstr "Footer item 1 URL"
+msgstr "URL položky 1 zápatí"
 
 msgid "plugins.themes.ammonite.settings.footerItemOneUrl.description"
-msgstr "Enter the URL for Footer Item 1 (will redirect the user)."
+msgstr "Zadejte URL pro položku 1 zápatí (přesměruje uživatele)."
 
 msgid "plugins.themes.ammonite.settings.footerItemTwo.label"
-msgstr "Footer item 2 text"
+msgstr "Text položky 2 zápatí"
 
 msgid "plugins.themes.ammonite.settings.footerItemTwo.description"
-msgstr "Enter the text for Footer item 2 to be shown in the footer links list."
+msgstr "Zadejte text pro položku 2 zápatí, která bude zobrazena v seznamu odkazů v zápatí."
 
 msgid "plugins.themes.ammonite.settings.footerItemTwoUrl.label"
-msgstr "Footer item 2 URL"
+msgstr "URL položky 2 zápatí"
 
 msgid "plugins.themes.ammonite.settings.footerItemTwoUrl.description"
-msgstr "URL that Footer item 2 (will redirect the user)."
+msgstr "URL, na kterou položka 2 zápatí (přesměruje uživatele)."
 
 msgid "plugins.themes.ammonite.settings.footerItemThree.label"
-msgstr "Footer item 3 text"
+msgstr "Text položky 3 zápatí"
 
 msgid "plugins.themes.ammonite.settings.footerItemThree.description"
-msgstr "Enter the text for Footer item 3 to be shown in the footer links list."
+msgstr "Zadejte text pro položku 3 zápatí, která bude zobrazena v seznamu odkazů v zápatí."
 
 msgid "plugins.themes.ammonite.settings.footerItemThreeUrl.label"
-msgstr "Footer item 3 URL"
+msgstr "URL položky 3 zápatí"
 
 msgid "plugins.themes.ammonite.settings.footerItemThreeUrl.description"
-msgstr "URL that Footer item 3 (will redirect the user)."
+msgstr "URL, na kterou položka 3 zápatí (přesměruje uživatele)."
 
 msgid "plugins.themes.ammonite.settings.journalNewsColour.label"
-msgstr "Colour for Journal news section background"
+msgstr "Barva pozadí sekce Novinky časopisu"
 
 msgid "plugins.themes.ammonite.settings.journalNewsColour.description"
-msgstr "Choose a colour to fill the Journal news section background on homepage."
+msgstr "Vyberte barvu pro vyplnění pozadí sekce Novinky časopisu na domovské stránce."
 
 msgid "plugins.themes.ammonite.settings.informationBlockColour.label"
-msgstr "Colour for Information section background"
+msgstr "Barva pozadí sekce Informace"
 
 msgid "plugins.themes.ammonite.settings.informationBlockColour.description"
-msgstr "Choose a colour to fill the Information section background on homepage."
+msgstr "Vyberte barvu pro vyplnění pozadí sekce Informace na domovské stránce."
 
 msgid "plugins.themes.ammonite.search.resultsFor"
-msgstr "Search results for"
+msgstr "Výsledky hledání pro"
 
 msgid "plugins.themes.ammonite.settings.defaultIssueCoverImage.label"
-msgstr "Default Image for Cover Issue"
+msgstr "Výchozí obrázek pro obálku čísla"
 
 msgid "plugins.themes.ammonite.settings.defaultIssueCoverImage.description"
-msgstr "Choose an image to be used as a cover image when the issue doesn't have one."
+msgstr "Vyberte obrázek, který bude použit jako obrázek obálky, pokud číslo žádný nemá."
 
 msgid "plugins.themes.ammonite.settings.defaultArticleImage.label"
-msgstr "Default Image for Article"
+msgstr "Výchozí obrázek pro článek"
 
 msgid "plugins.themes.ammonite.settings.defaultArticleImage.description"
-msgstr "Choose an image to be used for articles that don't have one."
+msgstr "Vyberte obrázek, který bude použit pro články, které žádný nemají."
 
 msgid "plugins.themes.ammonite.settings.categoryToShowChildOnArticle.label"
-msgstr "Category to show first child on article"
+msgstr "Kategorie pro zobrazení první podkategorie v článku"
 
 msgid "plugins.themes.ammonite.settings.categoryToShowChildOnArticle.description"
-msgstr "Choose a parent category and the system will show the first child category from this one that is assigned to the article."
+msgstr "Zvolte nadřazenou kategorii a systém zobrazí první podkategorii z této, která je přiřazena k článku."
 
 msgid "plugins.themes.ammonite.settings.showHideSectionOnArticle.label"
-msgstr "Hide or Show section on the article's page"
+msgstr "Skrýt nebo zobrazit sekci na stránce článku"
 
 msgid "plugins.themes.ammonite.settings.showHideSectionOnArticle.description"
-msgstr "If show, a section called 'section' will appear on the article landing page."
+msgstr "Pokud zobrazit, objeví se sekce nazvaná 'sekce' na vstupní stránce článku."
 
 msgid "plugins.themes.ammonite.settings.showHideCategoryOnArticle.label"
-msgstr "Hide or Show categories section on the article's page"
+msgstr "Skrýt nebo zobrazit sekci kategorií na stránce článku"
 
 msgid "plugins.themes.ammonite.settings.showHideCategoryOnArticle.description"
-msgstr "If show, a section called 'categories' will appear on the article landing page."
+msgstr "Pokud zobrazit, objeví se sekce nazvaná 'kategorie' na vstupní stránce článku."
 
 msgid "plugins.themes.ammonite.hide"
-msgstr "Hide"
+msgstr "Skrýt"
 
 msgid "plugins.themes.ammonite.show"
-msgstr "Show"
+msgstr "Zobrazit"
 
 msgid "plugins.themes.ammonite.noArticleCoverImageAltText"
-msgstr "No article image set."
+msgstr "Žádný obrázek článku nebyl nastaven."
 
 msgid "plugins.themes.ammonite.noIssueCoverImageAltText"
-msgstr "Issue cover coming soon."
+msgstr "Obálka čísla brzy."
 
 msgid "plugins.themes.ammonite.searchInformation"
-msgstr "Use the search form to find published articles from our archives."
+msgstr "Použijte formulář hledání k nalezení publikovaných článků v našich archivech."
 
 msgid "plugins.themes.ammonite.firstPage"
-msgstr "First Page"
+msgstr "První stránka"
 
 msgid "plugins.themes.ammonite.previousPage"
-msgstr "Previous Page"
+msgstr "Předchozí stránka"
 
 msgid "plugins.themes.ammonite.nextPage"
-msgstr "Next Page"
+msgstr "Další stránka"
 
 msgid "plugins.themes.ammonite.lastPage"
-msgstr "Last Page"
+msgstr "Poslední stránka"
 
 msgid "plugins.themes.ammonite.footerClientLogoAltTextLabel"
-msgstr "Alt text for footer logo."
+msgstr "Alt text pro logo zápatí."
 
 msgid "plugins.themes.ammonite.footerClientLogoAltTextDescription"
-msgstr "The alt text for the footer logo image selected above."
+msgstr "Alt text pro obrázek loga zápatí vybraný výše."
 
 msgid "plugins.themes.ammonite.footerClientLogoLinkLabel"
-msgstr "The link for where the footer client logo should redirect."
+msgstr "Odkaz, na který by mělo logo klienta v zápatí přesměrovat."
 
 msgid "plugins.themes.ammonite.footerClientLogoLinkDescription"
-msgstr "The link for where the footer logo image should redirect."
+msgstr "Odkaz, na který by měl obrázek loga zápatí přesměrovat."
 
 msgid "plugins.themes.ammonite.metadataToShowLabel"
-msgstr "Article metadata to show."
+msgstr "Metadata článku k zobrazení."
 
 msgid "plugins.themes.ammonite.metadataToShowDescription"
-msgstr "Select which of the following metadata can appear in the article page."
+msgstr "Vyberte, která z následujících metadat se mohou zobrazit na stránce článku."
 
 msgid "plugins.themes.ammonite.categoriesToShowArticlesLabel"
-msgstr "Categories to show Articles on Homepage."
+msgstr "Kategorie pro zobrazení článků na domovské stránce."
 
 msgid "plugins.themes.ammonite.categoriesToShowArticlesDescription"
-msgstr "Choose the categories of articles to display on the homepage."
+msgstr "Zvolte kategorie článků pro zobrazení na domovské stránce."
 
 msgid "plugins.themes.ammonite.categoriesDescription"
-msgstr "Categories"
+msgstr "Kategorie"

@@ -2,9 +2,21 @@
 
 An OJS theme designed by the Geological Survey of Denmark and Greenland and contributed to the OJS community.
 
-Compatible with OJS 3.4+.
+This is a **child theme** of the [Health Sciences theme](https://github.com/pkp/healthSciences).
+The parent Health Sciences theme **must be installed and present** in the OJS
+plugin registry; otherwise this theme will refuse to register its styles,
+templates and hooks and an admin notice will be shown on the Website Settings
+page.
 
-The theme is a child of the **Health Sciences** theme (`healthsciencesthemeplugin`), so all options provided by that parent theme (such as the `baseColour` primary colour, typography, etc.) remain available in addition to the options listed below.
+Install order:
+
+1. Install and verify the Health Sciences theme.
+2. Install this theme.
+3. Activate "Ammonite Theme" under *Settings → Website → Appearance → Theme*.
+
+Compatible with OJS 3.4.x.
+
+All options provided by the parent Health Sciences theme (such as the `baseColour` primary colour, typography, etc.) remain available in addition to the options listed below.
 
 ---
 

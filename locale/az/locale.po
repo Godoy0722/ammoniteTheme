@@ -9,268 +9,268 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2022-11-16T00:00:00+00:00\n"
 "PO-Revision-Date: 2022-11-16T00:00:00+00:00\n"
-"Language: \n"
+"Language: az\n"
 
 msgid "plugins.themes.ammonite.name"
-msgstr "Ammonite Theme"
+msgstr "Ammonite Mövzusu"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "An OJS theme designed for the Geological Survey of Denmark and Greenland, based on Health Sciences. Requires the Health Sciences theme to be installed; otherwise this theme will not load its styles, templates or hooks."
+msgstr "Danimarka və Qrenlandiya Geoloji Xidməti üçün hazırlanmış, Health Sciences əsaslı OJS mövzusu. Health Sciences mövzusunun quraşdırılması tələb olunur; əks halda bu mövzu öz stillərini, şablonlarını və qarmaqlarını yükləməyəcək."
 
 msgid "plugins.themes.ammonite.parentMissing"
-msgstr "The Ammonite Theme requires the Health Sciences theme to be installed. Install Health Sciences before activating Ammonite Theme; otherwise its styles and templates will not load."
+msgstr "Ammonite Mövzusu Health Sciences mövzusunun quraşdırılmasını tələb edir. Ammonite Mövzusunu aktivləşdirməzdən əvvəl Health Sciences quraşdırın; əks halda onun stilləri və şablonları yüklənməyəcək."
 
 msgid "plugins.themes.ammonite.journalNews"
-msgstr "Journal news"
+msgstr "Jurnal xəbərləri"
 
 msgid "plugins.themes.ammonite.download"
-msgstr "Download"
+msgstr "Yüklə"
 
 msgid "plugins.themes.ammonite.share"
-msgstr "Share"
+msgstr "Paylaş"
 
 msgid "plugins.themes.ammonite.latestIssue"
-msgstr "Latest Issue"
+msgstr "Son sayı"
 
 msgid "plugins.themes.ammonite.resumedVolume"
-msgstr "Vol."
+msgstr "Cild"
 
 msgid "plugins.themes.ammonite.readMoreInThisIssue"
-msgstr "Read More In This Issue"
+msgstr "Bu sayıda daha çox oxuyun"
 
 msgid "plugins.themes.ammonite.browseCurrentIssue"
-msgstr "Browse issue"
+msgstr "Sayı göz at"
 
 msgid "plugins.themes.ammonite.funding"
-msgstr "Funding"
+msgstr "Maliyyələşdirmə"
 
 msgid "plugins.themes.ammonite.metrics"
-msgstr "Metrics"
+msgstr "Metrikalar"
 
 msgid "plugins.themes.ammonite.submitManuscript"
-msgstr "Submit a manuscript"
+msgstr "Əlyazma təqdim et"
 
 msgid "plugins.themes.ammonite.information"
-msgstr "Information"
+msgstr "Məlumat"
 
 msgid "plugins.themes.ammonite.librarians"
-msgstr "Librarians"
+msgstr "Kitabxanaçılar"
 
 msgid "plugins.themes.ammonite.reviewers"
-msgstr "Reviewers"
+msgstr "Rəyçilər"
 
 msgid "plugins.themes.ammonite.becomeAnEditor"
-msgstr "Become an Editor"
+msgstr "Redaktor olun"
 
 msgid "plugins.themes.ammonite.becomeAReviewer"
-msgstr "Become a Reviewer"
+msgstr "Rəyçi olun"
 
 msgid "plugins.themes.ammonite.privacy"
-msgstr "Privacy"
+msgstr "Məxfilik"
 
 msgid "plugins.themes.ammonite.cookies"
-msgstr "Cookies"
+msgstr "Kukilər"
 
 msgid "plugins.themes.ammonite.rssFeed"
-msgstr "RSS Feed"
+msgstr "RSS lenti"
 
 msgid "plugins.themes.ammonite.option.mainHomePageCategory.label"
-msgstr "First homepage category"
+msgstr "Ana səhifənin birinci kateqoriyası"
 
 msgid "plugins.themes.ammonite.option.mainHomePageCategory.description"
-msgstr "Choose the first (top) category of articles to display on the homepage"
+msgstr "Ana səhifədə göstəriləcək birinci (yuxarı) məqalə kateqoriyasını seçin"
 
 msgid "plugins.themes.ammonite.option.secondHomePageCategory.label"
-msgstr "Second homepage category"
+msgstr "Ana səhifənin ikinci kateqoriyası"
 
 msgid "plugins.themes.ammonite.option.secondHomePageCategory.description"
-msgstr "Choose the second category of articles to display on the homepage"
+msgstr "Ana səhifədə göstəriləcək ikinci məqalə kateqoriyasını seçin"
 
 msgid "plugins.themes.ammonite.option.thirdHomePageCategory.label"
-msgstr "Third homepage category"
+msgstr "Ana səhifənin üçüncü kateqoriyası"
 
 msgid "plugins.themes.ammonite.option.thirdHomePageCategory.description"
-msgstr "Choose the third category of articles to display on the homepage"
+msgstr "Ana səhifədə göstəriləcək üçüncü məqalə kateqoriyasını seçin"
 
 msgid "plugins.themes.ammonite.option.none"
-msgstr "None"
+msgstr "Heç biri"
 
 msgid "plugins.themes.ammonite.option.categoryToListSubcategories.label"
-msgstr "Featured subcategories (as list)"
+msgstr "Seçilmiş alt kateqoriyalar (siyahı kimi)"
 
 msgid "plugins.themes.ammonite.option.categoryToListSubcategories.description"
-msgstr "Select a category (displayed on homepage as a list)"
+msgstr "Kateqoriya seçin (ana səhifədə siyahı kimi göstərilir)"
 
 msgid "plugins.themes.ammonite.option.homepageInformationContent.label"
-msgstr "Homepage information block content"
+msgstr "Ana səhifə məlumat blokunun məzmunu"
 
 msgid "plugins.themes.ammonite.option.homepageInformationContent.description"
-msgstr "Enter the content for the homepage information block (displayed alongside information for Authors and Librarians)"
+msgstr "Ana səhifə məlumat blokunun məzmununu daxil edin (Müəlliflər və Kitabxanaçılar üçün məlumatla yanaşı göstərilir)"
 
 msgid "plugins.themes.ammonite.homepageInformationTitle.label"
-msgstr "Homepage information block title"
+msgstr "Ana səhifə məlumat blokunun başlığı"
 
 msgid "plugins.themes.ammonite.homepageInformationTitle.description"
-msgstr "Enter the title for the homepage information block"
+msgstr "Ana səhifə məlumat blokunun başlığını daxil edin"
 
 msgid "plugins.themes.ammonite.option.submissionsQtd.label"
-msgstr "Homepage articles"
+msgstr "Ana səhifə məqalələri"
 
 msgid "plugins.themes.ammonite.option.submissionsQtd.description"
-msgstr "Enter the number of articles to be shown in each category on the homepage."
+msgstr "Ana səhifənin hər kateqoriyasında göstəriləcək məqalələrin sayını daxil edin."
 
 msgid "plugins.themes.ammonite.option.footerClientLogo.label"
-msgstr "Logo for footer"
+msgstr "Alt kolontitul üçün loqo"
 
 msgid "plugins.themes.ammonite.option.footerClientLogo.description"
-msgstr "Select the logo file to be shown just above the OJS logo in the footer"
+msgstr "Alt kolontituldakı OJS loqosunun düz üstündə göstəriləcək loqo faylını seçin"
 
 msgid "plugins.themes.ammonite.option.socialMediaXLink.label"
-msgstr "Link for Social Media X"
+msgstr "Sosial Media X üçün keçid"
 
 msgid "plugins.themes.ammonite.option.socialMediaYouTubeLink.label"
-msgstr "Link for YouTube"
+msgstr "YouTube üçün keçid"
 
 msgid "plugins.themes.ammonite.option.socialMediaLinkedInLink.label"
-msgstr "Link for LinkedIn"
+msgstr "LinkedIn üçün keçid"
 
 msgid "plugins.themes.ammonite.option.socialMediaInstagramLink.label"
-msgstr "Link for Instagram"
+msgstr "Instagram üçün keçid"
 
 msgid "plugins.themes.ammonite.settings.splashImage.selectLabel"
-msgstr "Select a file"
+msgstr "Fayl seçin"
 
 msgid "plugins.themes.ammonite.settings.footerItemOne.label"
-msgstr "Footer item 1 text"
+msgstr "Alt kolontitul elementi 1 mətni"
 
 msgid "plugins.themes.ammonite.settings.footerItemOne.description"
-msgstr "Enter the text for Footer item 1 to be shown in the footer links list"
+msgstr "Alt kolontitul keçidlər siyahısında göstəriləcək Alt kolontitul elementi 1 üçün mətn daxil edin"
 
 msgid "plugins.themes.ammonite.settings.footerItemOneUrl.label"
-msgstr "Footer item 1 URL"
+msgstr "Alt kolontitul elementi 1 URL"
 
 msgid "plugins.themes.ammonite.settings.footerItemOneUrl.description"
-msgstr "Enter the URL for Footer Item 1 (will redirect the user)."
+msgstr "Alt kolontitul elementi 1 üçün URL daxil edin (istifadəçini yönləndirəcək)."
 
 msgid "plugins.themes.ammonite.settings.footerItemTwo.label"
-msgstr "Footer item 2 text"
+msgstr "Alt kolontitul elementi 2 mətni"
 
 msgid "plugins.themes.ammonite.settings.footerItemTwo.description"
-msgstr "Enter the text for Footer item 2 to be shown in the footer links list."
+msgstr "Alt kolontitul keçidlər siyahısında göstəriləcək Alt kolontitul elementi 2 üçün mətn daxil edin."
 
 msgid "plugins.themes.ammonite.settings.footerItemTwoUrl.label"
-msgstr "Footer item 2 URL"
+msgstr "Alt kolontitul elementi 2 URL"
 
 msgid "plugins.themes.ammonite.settings.footerItemTwoUrl.description"
-msgstr "URL that Footer item 2 (will redirect the user)."
+msgstr "Alt kolontitul elementi 2-nin (istifadəçini yönləndirəcəyi) URL."
 
 msgid "plugins.themes.ammonite.settings.footerItemThree.label"
-msgstr "Footer item 3 text"
+msgstr "Alt kolontitul elementi 3 mətni"
 
 msgid "plugins.themes.ammonite.settings.footerItemThree.description"
-msgstr "Enter the text for Footer item 3 to be shown in the footer links list."
+msgstr "Alt kolontitul keçidlər siyahısında göstəriləcək Alt kolontitul elementi 3 üçün mətn daxil edin."
 
 msgid "plugins.themes.ammonite.settings.footerItemThreeUrl.label"
-msgstr "Footer item 3 URL"
+msgstr "Alt kolontitul elementi 3 URL"
 
 msgid "plugins.themes.ammonite.settings.footerItemThreeUrl.description"
-msgstr "URL that Footer item 3 (will redirect the user)."
+msgstr "Alt kolontitul elementi 3-nin (istifadəçini yönləndirəcəyi) URL."
 
 msgid "plugins.themes.ammonite.settings.journalNewsColour.label"
-msgstr "Colour for Journal news section background"
+msgstr "Jurnal xəbərləri bölməsinin fon rəngi"
 
 msgid "plugins.themes.ammonite.settings.journalNewsColour.description"
-msgstr "Choose a colour to fill the Journal news section background on homepage."
+msgstr "Ana səhifədəki Jurnal xəbərləri bölməsinin fonunu doldurmaq üçün rəng seçin."
 
 msgid "plugins.themes.ammonite.settings.informationBlockColour.label"
-msgstr "Colour for Information section background"
+msgstr "Məlumat bölməsinin fon rəngi"
 
 msgid "plugins.themes.ammonite.settings.informationBlockColour.description"
-msgstr "Choose a colour to fill the Information section background on homepage."
+msgstr "Ana səhifədəki Məlumat bölməsinin fonunu doldurmaq üçün rəng seçin."
 
 msgid "plugins.themes.ammonite.search.resultsFor"
-msgstr "Search results for"
+msgstr "Axtarış nəticələri"
 
 msgid "plugins.themes.ammonite.settings.defaultIssueCoverImage.label"
-msgstr "Default Image for Cover Issue"
+msgstr "Sayın üz qabığı üçün standart şəkil"
 
 msgid "plugins.themes.ammonite.settings.defaultIssueCoverImage.description"
-msgstr "Choose an image to be used as a cover image when the issue doesn't have one."
+msgstr "Sayın öz üz qabığı olmadıqda üz qabığı şəkli kimi istifadə ediləcək şəkli seçin."
 
 msgid "plugins.themes.ammonite.settings.defaultArticleImage.label"
-msgstr "Default Image for Article"
+msgstr "Məqalə üçün standart şəkil"
 
 msgid "plugins.themes.ammonite.settings.defaultArticleImage.description"
-msgstr "Choose an image to be used for articles that don't have one."
+msgstr "Şəkli olmayan məqalələr üçün istifadə ediləcək şəkli seçin."
 
 msgid "plugins.themes.ammonite.settings.categoryToShowChildOnArticle.label"
-msgstr "Category to show first child on article"
+msgstr "Məqalədə birinci alt kateqoriyanı göstərəcək kateqoriya"
 
 msgid "plugins.themes.ammonite.settings.categoryToShowChildOnArticle.description"
-msgstr "Choose a parent category and the system will show the first child category from this one that is assigned to the article."
+msgstr "Ana kateqoriya seçin və sistem məqaləyə təyin edilmiş bu kateqoriyanın birinci alt kateqoriyasını göstərəcək."
 
 msgid "plugins.themes.ammonite.settings.showHideSectionOnArticle.label"
-msgstr "Hide or Show section on the article's page"
+msgstr "Məqalə səhifəsində bölməni gizlət və ya göstər"
 
 msgid "plugins.themes.ammonite.settings.showHideSectionOnArticle.description"
-msgstr "If show, a section called 'section' will appear on the article landing page."
+msgstr "Göstər seçilsə, məqalənin eniş səhifəsində 'bölmə' adlı bir bölmə görünəcək."
 
 msgid "plugins.themes.ammonite.settings.showHideCategoryOnArticle.label"
-msgstr "Hide or Show categories section on the article's page"
+msgstr "Məqalə səhifəsində kateqoriyalar bölməsini gizlət və ya göstər"
 
 msgid "plugins.themes.ammonite.settings.showHideCategoryOnArticle.description"
-msgstr "If show, a section called 'categories' will appear on the article landing page."
+msgstr "Göstər seçilsə, məqalənin eniş səhifəsində 'kateqoriyalar' adlı bir bölmə görünəcək."
 
 msgid "plugins.themes.ammonite.hide"
-msgstr "Hide"
+msgstr "Gizlət"
 
 msgid "plugins.themes.ammonite.show"
-msgstr "Show"
+msgstr "Göstər"
 
 msgid "plugins.themes.ammonite.noArticleCoverImageAltText"
-msgstr "No article image set."
+msgstr "Məqalə şəkli təyin olunmayıb."
 
 msgid "plugins.themes.ammonite.noIssueCoverImageAltText"
-msgstr "Issue cover coming soon."
+msgstr "Sayın üz qabığı tezliklə."
 
 msgid "plugins.themes.ammonite.searchInformation"
-msgstr "Use the search form to find published articles from our archives."
+msgstr "Arxivlərimizdən dərc edilmiş məqalələri tapmaq üçün axtarış formasından istifadə edin."
 
 msgid "plugins.themes.ammonite.firstPage"
-msgstr "First Page"
+msgstr "Birinci səhifə"
 
 msgid "plugins.themes.ammonite.previousPage"
-msgstr "Previous Page"
+msgstr "Əvvəlki səhifə"
 
 msgid "plugins.themes.ammonite.nextPage"
-msgstr "Next Page"
+msgstr "Növbəti səhifə"
 
 msgid "plugins.themes.ammonite.lastPage"
-msgstr "Last Page"
+msgstr "Son səhifə"
 
 msgid "plugins.themes.ammonite.footerClientLogoAltTextLabel"
-msgstr "Alt text for footer logo."
+msgstr "Alt kolontitul loqosu üçün alt mətn."
 
 msgid "plugins.themes.ammonite.footerClientLogoAltTextDescription"
-msgstr "The alt text for the footer logo image selected above."
+msgstr "Yuxarıda seçilmiş alt kolontitul loqosu şəkli üçün alt mətn."
 
 msgid "plugins.themes.ammonite.footerClientLogoLinkLabel"
-msgstr "The link for where the footer client logo should redirect."
+msgstr "Alt kolontituldakı müştəri loqosunun yönləndirəcəyi keçid."
 
 msgid "plugins.themes.ammonite.footerClientLogoLinkDescription"
-msgstr "The link for where the footer logo image should redirect."
+msgstr "Alt kolontitul loqosu şəklinin yönləndirəcəyi keçid."
 
 msgid "plugins.themes.ammonite.metadataToShowLabel"
-msgstr "Article metadata to show."
+msgstr "Göstəriləcək məqalə metaməlumatları."
 
 msgid "plugins.themes.ammonite.metadataToShowDescription"
-msgstr "Select which of the following metadata can appear in the article page."
+msgstr "Aşağıdakı metaməlumatlardan hansılarının məqalə səhifəsində görünə biləcəyini seçin."
 
 msgid "plugins.themes.ammonite.categoriesToShowArticlesLabel"
-msgstr "Categories to show Articles on Homepage."
+msgstr "Ana səhifədə məqalələri göstərəcək kateqoriyalar."
 
 msgid "plugins.themes.ammonite.categoriesToShowArticlesDescription"
-msgstr "Choose the categories of articles to display on the homepage."
+msgstr "Ana səhifədə göstəriləcək məqalə kateqoriyalarını seçin."
 
 msgid "plugins.themes.ammonite.categoriesDescription"
-msgstr "Categories"
+msgstr "Kateqoriyalar"
