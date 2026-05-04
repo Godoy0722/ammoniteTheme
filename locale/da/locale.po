@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Ammonite-tema"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "Et OJS-tema designet til De Nationale Geologiske Undersøgelser for Danmark og Grønland."
+msgstr "Et OJS-tema designet til De Nationale Geologiske Undersøgelser for Danmark og Grønland, baseret på Health Sciences. Kræver, at Health Sciences-temaet er installeret; ellers vil dette tema ikke indlæse sine stilarter, skabeloner eller hooks."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Ammonite-temaet kræver, at Health Sciences-temaet er installeret. Installer Health Sciences før du aktiverer Ammonite-temaet; ellers vil dets stilarter og skabeloner ikke blive indlæst."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Tidsskriftsnyheder"

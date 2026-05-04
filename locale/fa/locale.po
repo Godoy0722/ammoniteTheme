@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "قالب Ammonite"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "قالب OJS طراحی شده برای سازمان زمین‌شناسی دانمارک و گرینلند."
+msgstr "قالب OJS طراحی شده برای سازمان زمین‌شناسی دانمارک و گرینلند، مبتنی بر Health Sciences. نیازمند نصب قالب Health Sciences است؛ در غیر این صورت این قالب استایل‌ها، قالب‌ها و hookهای خود را بارگذاری نخواهد کرد."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "قالب Ammonite نیازمند نصب قالب Health Sciences است. قبل از فعال‌سازی قالب Ammonite، Health Sciences را نصب کنید؛ در غیر این صورت استایل‌ها و قالب‌های آن بارگذاری نمی‌شوند."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "اخبار مجله"

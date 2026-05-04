@@ -18,16 +18,23 @@ namespace APP\plugins\themes\ammoniteTheme;
 use APP\core\Application;
 use APP\facades\Repo;
 use APP\journal\Journal;
+use APP\notification\NotificationManager;
 use APP\plugins\themes\ammoniteTheme\classes\acessibility\ContrastColor;
 use APP\plugins\themes\ammoniteTheme\classes\AnnouncementManager;
 use APP\plugins\themes\ammoniteTheme\classes\CategoryManager;
 use APP\plugins\themes\ammoniteTheme\classes\PublisherLibraryManager;
 use APP\plugins\themes\ammoniteTheme\classes\SubmissionManager;
 use APP\submission\Submission;
+use PKP\notification\Notification;
 use PKP\plugins\Hook;
+use PKP\plugins\PluginRegistry;
+use PKP\plugins\ThemePlugin;
 
-class AmmoniteThemePlugin extends \PKP\plugins\ThemePlugin
+class AmmoniteThemePlugin extends ThemePlugin
 {
+    /** Plugin registry key of the required parent theme. */
+    private const PARENT_THEME_KEY = 'healthsciencesthemeplugin';
+
     private array $cachedCategories = [];
 
     /**
@@ -35,7 +42,15 @@ class AmmoniteThemePlugin extends \PKP\plugins\ThemePlugin
      */
     public function init()
     {
-        $this->setParent('healthsciencesthemeplugin');
+        // Ammonite is a child of the Health Sciences theme. Without that parent
+        // installed the styles, templates and options it inherits are missing,
+        // so refuse to register anything and surface a notice to admins.
+        if (!$this->isParentThemeAvailable()) {
+            $this->registerMissingParentNotice();
+            return;
+        }
+
+        $this->setParent(self::PARENT_THEME_KEY);
 
         $this->addMenuArea(['primary', 'user', 'footer', 'footerSocialMedia']);
 
@@ -60,6 +75,42 @@ class AmmoniteThemePlugin extends \PKP\plugins\ThemePlugin
 
         // Update background and text color LESS variables based on the baseColour theme option
         $this->getTextColorForAccessibility();
+    }
+
+    /**
+     * Check whether the Health Sciences parent theme is installed and registered.
+     */
+    private function isParentThemeAvailable(): bool
+    {
+        return PluginRegistry::getPlugin('themes', self::PARENT_THEME_KEY) instanceof ThemePlugin;
+    }
+
+    /**
+     * Flash a warning on the website settings page when an admin lands there
+     * without the required parent theme installed.
+     */
+    private function registerMissingParentNotice(): void
+    {
+        Hook::add('TemplateManager::display', function ($hookName, $args) {
+            $template = $args[1] ?? null;
+            if ($template !== 'management/website.tpl') {
+                return false;
+            }
+
+            $user = Application::get()->getRequest()->getUser();
+            if (!$user) {
+                return false;
+            }
+
+            $notificationMgr = new NotificationManager();
+            $notificationMgr->createTrivialNotification(
+                $user->getId(),
+                Notification::NOTIFICATION_TYPE_WARNING,
+                ['contents' => __('plugins.themes.ammonite.parentMissing')]
+            );
+
+            return false;
+        });
     }
 
     /**

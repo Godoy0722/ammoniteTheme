@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Ammonite-þema"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "OJS-þema hannað fyrir Jarðfræðistofnun Danmerkur og Grænlands."
+msgstr "OJS-þema hannað fyrir Jarðfræðistofnun Danmerkur og Grænlands, byggt á Health Sciences. Krefst þess að Health Sciences-þemað sé sett upp; annars mun þetta þema ekki hlaða stílum sínum, sniðmátum eða hookum."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Ammonite-þemað krefst þess að Health Sciences-þemað sé sett upp. Settu upp Health Sciences áður en þú virkjar Ammonite-þemað; annars munu stílar og sniðmát þess ekki hlaðast."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Fréttir tímarits"

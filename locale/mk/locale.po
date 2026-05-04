@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Тема Ammonite"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "OJS тема дизајнирана за Геолошката служба на Данска и Гренланд."
+msgstr "OJS тема дизајнирана за Геолошката служба на Данска и Гренланд, базирана на Health Sciences. Бара темата Health Sciences да биде инсталирана; во спротивно, оваа тема нема да ги вчита своите стилови, шаблони или hooks."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Темата Ammonite бара темата Health Sciences да биде инсталирана. Инсталирајте го Health Sciences пред активирање на темата Ammonite; во спротивно, нејзините стилови и шаблони нема да се вчитаат."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Вести од списанието"

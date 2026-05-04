@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Ammonite 主题"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "为丹麦和格陵兰地质调查局设计的 OJS 主题。"
+msgstr "为丹麦和格陵兰地质调查局设计、基于 Health Sciences 的 OJS 主题。需要安装 Health Sciences 主题；否则该主题将无法加载其样式、模板或钩子。"
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Ammonite 主题需要安装 Health Sciences 主题。请在激活 Ammonite 主题之前安装 Health Sciences；否则其样式和模板将无法加载。"
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "期刊新闻"

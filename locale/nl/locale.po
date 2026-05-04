@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Ammonite-thema"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "Een OJS-thema ontworpen voor de Geologische Dienst van Denemarken en Groenland."
+msgstr "Een OJS-thema ontworpen voor de Geologische Dienst van Denemarken en Groenland, gebaseerd op Health Sciences. Vereist dat het Health Sciences-thema is geïnstalleerd; anders laadt dit thema zijn stijlen, templates of hooks niet."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Het Ammonite-thema vereist dat het Health Sciences-thema is geïnstalleerd. Installeer Health Sciences voordat u het Ammonite-thema activeert; anders worden zijn stijlen en templates niet geladen."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Tijdschriftnieuws"

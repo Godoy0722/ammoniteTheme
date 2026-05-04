@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "قالب Ammonite"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "قالب OJS مصمم لهيئة المسح الجيولوجي للدنمارك وجرينلاند."
+msgstr "قالب OJS مصمم لهيئة المسح الجيولوجي للدنمارك وجرينلاند، يستند إلى Health Sciences. يتطلب تثبيت قالب Health Sciences؛ وإلا فلن يقوم هذا القالب بتحميل أنماطه أو قوالبه أو خطافاته."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "يتطلب قالب Ammonite تثبيت قالب Health Sciences. قم بتثبيت Health Sciences قبل تفعيل قالب Ammonite؛ وإلا فلن يتم تحميل أنماطه وقوالبه."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "أخبار المجلة"

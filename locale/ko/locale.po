@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Ammonite 테마"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "덴마크 및 그린란드 지질조사소를 위해 설계된 OJS 테마."
+msgstr "덴마크 및 그린란드 지질조사소를 위해 설계된 Health Sciences 기반 OJS 테마. Health Sciences 테마가 설치되어 있어야 하며, 그렇지 않으면 이 테마는 스타일, 템플릿 또는 훅을 로드하지 않습니다."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Ammonite 테마는 Health Sciences 테마가 설치되어 있어야 합니다. Ammonite 테마를 활성화하기 전에 Health Sciences를 설치하세요. 그렇지 않으면 스타일과 템플릿이 로드되지 않습니다."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "저널 뉴스"

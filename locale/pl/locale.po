@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Motyw Ammonite"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "Motyw OJS zaprojektowany dla Służby Geologicznej Danii i Grenlandii."
+msgstr "Motyw OJS zaprojektowany dla Służby Geologicznej Danii i Grenlandii, oparty na Health Sciences. Wymaga zainstalowanego motywu Health Sciences; w przeciwnym razie ten motyw nie wczyta swoich styli, szablonów ani hooków."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Motyw Ammonite wymaga zainstalowanego motywu Health Sciences. Zainstaluj Health Sciences przed aktywacją motywu Ammonite; w przeciwnym razie jego style i szablony nie zostaną wczytane."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Aktualności czasopisma"

@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Ammoniteテーマ"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "デンマークおよびグリーンランド地質調査所のために設計されたOJSテーマ。"
+msgstr "デンマークおよびグリーンランド地質調査所のために設計され、Health Sciences をベースとした OJS テーマ。Health Sciences テーマがインストールされている必要があります。インストールされていない場合、このテーマはスタイル、テンプレート、フックを読み込みません。"
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Ammonite テーマには Health Sciences テーマのインストールが必要です。Ammonite テーマを有効化する前に Health Sciences をインストールしてください。インストールされていない場合、スタイルとテンプレートは読み込まれません。"
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "ジャーナルニュース"

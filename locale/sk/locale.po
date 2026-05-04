@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Motív Ammonite"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "Motív OJS navrhnutý pre Geologickú službu Dánska a Grónska."
+msgstr "Motív OJS navrhnutý pre Geologickú službu Dánska a Grónska, založený na Health Sciences. Vyžaduje inštaláciu motívu Health Sciences; inak tento motív nenačíta svoje štýly, šablóny ani hooky."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Motív Ammonite vyžaduje inštaláciu motívu Health Sciences. Pred aktiváciou motívu Ammonite nainštalujte Health Sciences; inak sa jeho štýly a šablóny nenačítajú."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Novinky časopisu"

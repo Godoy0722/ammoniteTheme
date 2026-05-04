@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Ammonite teema"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "OJS teema, mis on loodud Taani ja Gröönimaa Geoloogiateenistuse jaoks."
+msgstr "OJS teema, mis on loodud Taani ja Gröönimaa Geoloogiateenistuse jaoks, põhineb Health Sciences teemal. Nõuab Health Sciences teema paigaldamist; vastasel juhul ei lae see teema oma stiile, malle ega hookide."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Ammonite teema nõuab Health Sciences teema paigaldamist. Paigaldage Health Sciences enne Ammonite teema aktiveerimist; vastasel juhul ei laeta selle stiile ega malle."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Ajakirja uudised"

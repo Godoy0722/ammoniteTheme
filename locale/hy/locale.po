@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Ammonite թեմա"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "OJS թեմա, որը նախագծված է Դանիայի և Գրենլանդիայի Երկրաբանական ծառայության համար։"
+msgstr "OJS թեմա, որը նախագծված է Դանիայի և Գրենլանդիայի Երկրաբանական ծառայության համար, հիմնված է Health Sciences թեմայի վրա։ Պահանջում է Health Sciences թեմայի տեղադրում, հակառակ դեպքում այս թեման չի բեռնի իր ոճերը, ձևանմուշները կամ hook-երը։"
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Ammonite թեման պահանջում է Health Sciences թեմայի տեղադրում։ Տեղադրեք Health Sciences-ը նախքան Ammonite թեմայի ակտիվացումը, հակառակ դեպքում նրա ոճերը և ձևանմուշները չեն բեռնվի։"
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Ամսագրի նորություններ"

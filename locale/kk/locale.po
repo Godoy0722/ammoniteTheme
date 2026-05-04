@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Ammonite тақырыбы"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "Дания және Гренландияның Геологиялық қызметіне арналған OJS тақырыбы."
+msgstr "Дания және Гренландияның Геологиялық қызметіне арналған, Health Sciences негізіндегі OJS тақырыбы. Health Sciences тақырыбының орнатылуын қажет етеді; әйтпесе бұл тақырып өз стильдерін, шаблондары мен hook-терін жүктемейді."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Ammonite тақырыбы Health Sciences тақырыбының орнатылуын қажет етеді. Ammonite тақырыбын белсендіру алдында Health Sciences тақырыбын орнатыңыз; әйтпесе оның стильдері мен шаблондары жүктелмейді."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Журнал жаңалықтары"

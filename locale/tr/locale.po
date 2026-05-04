@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Ammonite Teması"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "Danimarka ve Grönland Jeolojik Araştırması için tasarlanmış bir OJS teması."
+msgstr "Danimarka ve Grönland Jeolojik Araştırması için tasarlanmış, Health Sciences tabanlı bir OJS teması. Health Sciences temasının kurulu olmasını gerektirir; aksi takdirde bu tema stillerini, şablonlarını veya hook'larını yüklemez."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Ammonite teması, Health Sciences temasının kurulu olmasını gerektirir. Ammonite temasını etkinleştirmeden önce Health Sciences'ı kurun; aksi takdirde stilleri ve şablonları yüklenmez."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Dergi haberleri"

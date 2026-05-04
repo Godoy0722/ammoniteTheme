@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Ammonite-teema"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "OJS-teema, joka on suunniteltu Tanskan ja Grönlannin geologisen tutkimuksen käyttöön."
+msgstr "OJS-teema, joka on suunniteltu Tanskan ja Grönlannin geologisen tutkimuksen käyttöön, perustuu Health Sciences -teemaan. Vaatii Health Sciences -teeman asentamisen; muuten tämä teema ei lataa tyylejään, mallipohjia tai hookkeja."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Ammonite-teema vaatii Health Sciences -teeman asentamisen. Asenna Health Sciences ennen Ammonite-teeman aktivointia; muuten sen tyylit ja mallipohjat eivät lataudu."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Lehden uutiset"

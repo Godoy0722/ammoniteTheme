@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Tema Ammonite"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "Un tema de OJS diseñado para el Servicio Geológico de Dinamarca y Groenlandia."
+msgstr "Un tema de OJS diseñado para el Servicio Geológico de Dinamarca y Groenlandia, basado en Health Sciences. Requiere que el tema Health Sciences esté instalado; de lo contrario, este tema no cargará sus estilos, plantillas ni hooks."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "El tema Ammonite requiere que el tema Health Sciences esté instalado. Instale Health Sciences antes de activar el tema Ammonite; de lo contrario, sus estilos y plantillas no se cargarán."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Noticias de la revista"

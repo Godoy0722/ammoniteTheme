@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Θέμα Ammonite"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "Ένα θέμα OJS σχεδιασμένο για τη Γεωλογική Υπηρεσία της Δανίας και της Γροιλανδίας."
+msgstr "Ένα θέμα OJS σχεδιασμένο για τη Γεωλογική Υπηρεσία της Δανίας και της Γροιλανδίας, βασισμένο στο Health Sciences. Απαιτεί την εγκατάσταση του θέματος Health Sciences· διαφορετικά αυτό το θέμα δεν θα φορτώσει τα στυλ, τα πρότυπα ή τα hooks του."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Το θέμα Ammonite απαιτεί την εγκατάσταση του θέματος Health Sciences. Εγκαταστήστε το Health Sciences πριν ενεργοποιήσετε το θέμα Ammonite· διαφορετικά τα στυλ και τα πρότυπά του δεν θα φορτωθούν."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Νέα περιοδικού"

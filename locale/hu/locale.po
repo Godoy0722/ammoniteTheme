@@ -15,7 +15,10 @@ msgid "plugins.themes.ammonite.name"
 msgstr "Ammonite téma"
 
 msgid "plugins.themes.ammonite.description"
-msgstr "OJS téma, amelyet Dánia és Grönland Geológiai Szolgálatának terveztek."
+msgstr "OJS téma, amelyet Dánia és Grönland Geológiai Szolgálatának terveztek, a Health Sciences témára épül. A Health Sciences téma telepítése szükséges; ellenkező esetben ez a téma nem tölti be a stílusait, sablonjait vagy hookjait."
+
+msgid "plugins.themes.ammonite.parentMissing"
+msgstr "Az Ammonite téma a Health Sciences téma telepítését igényli. Telepítse a Health Sciences témát az Ammonite téma aktiválása előtt; ellenkező esetben a stílusai és sablonjai nem töltődnek be."
 
 msgid "plugins.themes.ammonite.journalNews"
 msgstr "Folyóirat hírei"
