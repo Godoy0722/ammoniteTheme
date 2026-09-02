@@ -21,7 +21,7 @@
 
 <div class="row my-2 max-w-sm-900">
 	<span class="ammonite-breadcrumb-text">
-		{$announcement->datePosted|date_format:$dateFormatLong}
+		{$announcement->datePosted->format($dateFormatLong)}
 	</span>
 </div>
 

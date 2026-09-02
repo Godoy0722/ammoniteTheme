@@ -36,7 +36,7 @@
 
                                 <div class="row my-4">
                                     <span class="ammonite-breadcrumb-text">
-                                        {$announcement->datePosted|date_format:$dateFormatLong}
+                                        {$announcement->datePosted->format($dateFormatLong)}
                                     </span>
                                 </div>
 

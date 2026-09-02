@@ -11,6 +11,8 @@
  *}
 {include file="frontend/components/header.tpl" pageTitle="user.register"}
 
+{assign var="siteContextId" value=\PKP\core\PKPApplication::SITE_CONTEXT_ID|intval}
+
 <div class="max-w-xl-1200 main-content-layout mx-xl-auto">
 	{include file="frontend/components/breadcrumbs.tpl" currentTitleKey="user.register"}
 
@@ -77,15 +79,15 @@
 								{/if}
 
 								{foreach from=$reviewerUserGroups[$contextId] item=userGroup}
-									{if $userGroup->getPermitSelfRegistration()}
+									{if $userGroup->permitSelfRegistration}
 										<div class="form-check my-3">
-											{assign var="userGroupId" value=$userGroup->getId()}
+											{assign var="userGroupId" value=$userGroup->id}
 											<input class="form-check-input rounded-0" type="checkbox"
 												name="reviewerGroup[{$userGroupId}]" id="reviewerGroup[{$userGroupId}]" value="1"
 												{if in_array($userGroupId, $userGroupIds)} checked="checked" {/if} />
 											<label class="form-check-label ammonite-regular-text mb-0"
 												for="reviewerGroup[{$userGroupId}]">
-												{translate key=$checkboxLocaleKey userGroup=$userGroup->getLocalizedName()}
+												{translate key=$checkboxLocaleKey userGroup=$userGroup->getLocalizedData('name')}
 											</label>
 										</div>
 									{/if}
@@ -133,12 +135,12 @@
 											<div class="col-10 col-xl-12">
 												<div class="form-check my-3">
 													<input type="checkbox" class="form-check-input rounded-0"
-														name="privacyConsent[{$smarty.const.CONTEXT_ID_NONE}]"
-														id="privacyConsent[{$smarty.const.CONTEXT_ID_NONE}]" value="1"
-														{if $privacyConsent[$smarty.const.CONTEXT_ID_NONE]}checked="checked"
-														{/if} {* TODO: See if this should use HTML5 required *} />
+														name="privacyConsent[{$siteContextId}]"
+														id="privacyConsent[{$siteContextId}]" value="1"
+														{if $privacyConsent[$siteContextId]}checked="checked"
+														{/if} />
 													<label class="form-check-label ammonite-regular-text mb-0"
-														for="privacyConsent[{$smarty.const.CONTEXT_ID_NONE}]">
+														for="privacyConsent[{$siteContextId}]">
 														{capture assign="privacyUrl"}{url router=$smarty.const.ROUTE_PAGE page="about" op="privacy"}{/capture}
 														{translate key="user.register.form.privacyConsent" privacyUrl=$privacyUrl}
 													</label>
@@ -171,12 +173,20 @@
 
 
 		{* recaptcha spam blocker *}
-		{if $reCaptchaHtml}
+		{if $recaptchaPublicKey}
 			<div class="row mt-5">
 				<div class="col-12 max-w-sm-900">
-					<div>
-						{$reCaptchaHtml}
-					</div>
+					<div class="g-recaptcha" data-sitekey="{$recaptchaPublicKey|escape}"></div>
+					<label for="g-recaptcha-response" style="display:none;" hidden>Recaptcha response</label>
+				</div>
+			</div>
+		{/if}
+
+		{* altcha spam blocker *}
+		{if $altchaEnabled}
+			<div class="row mt-5">
+				<div class="col-12 max-w-sm-900">
+					<altcha-widget challengejson='{$altchaChallenge|@json_encode}' floating></altcha-widget>
 				</div>
 			</div>
 		{/if}

@@ -75,23 +75,19 @@
             {if $publication->getData('authors')}
                 <div class="d-flex flex-wrap align-items-center mt-1">
                     {foreach from=$publication->getData('authors') item=author}
-                        {assign var=hasSubInfo value=($author->getLocalizedData('affiliation')||$author->getData('orcid'))}
+                        {assign var=authorAffiliations value=$author->getLocalizedAffiliationNamesAsString(null, ', ')}
 
                         <span class="ammonite-regular-text mb-0 align-items-center ammonite-author d-flex">
                             {$author->getFullName()|escape}
-                            {if $author->getData('orcid') or $author->getLocalizedData('affiliation')}
+                            {if $author->getData('orcid') or $authorAffiliations}
                                 <div class="ammonite-breadcrumb-text ammonite-author-data cursor-pointer d-flex align-items-center"
                                     style="color: #0c63e4;"
-                                    data-affiliation="{if $author->getLocalizedData('affiliation')}{$author->getLocalizedData('affiliation')|escape}{else}{/if}"
+                                    data-affiliation="{$authorAffiliations|escape}"
                                     data-author="{$author->getFullName()|escape}"
-                                    data-orcid="{if $author->getData('orcid')}{$author->getData('orcid')|escape}{else}{/if}">
+                                    data-orcid="{if $author->getData('orcid')}{$author->getOrcidDisplayValue()|escape}{else}{/if}">
                                     <span class="plus-minus-icon ms-1">+</span>
-                                    {if $orcidIcon && $author->getData('orcid')}
-                                        {if $orcidIcon}
-                                            <div>{$orcidIcon}</div>
-                                        {else}
-                                            <img src="{$baseUrl}/{$orcidImage}">
-                                        {/if}
+                                    {if $author->getData('orcid') && $author->hasVerifiedOrcid() && $orcidIcon}
+                                        <div>{$orcidIcon}</div>
                                     {/if}
                                 </div>
                             {/if}

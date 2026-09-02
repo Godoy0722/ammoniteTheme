@@ -14,7 +14,7 @@
 <div class="row mt-5">
 	<div class="col-12 max-w-sm-900">
 		<span class="ammonite-regular-text mb-0">
-			{$announcement->datePosted|date_format:$dateFormatLong}
+			{$announcement->datePosted->format($dateFormatLong)}
 		</span>
 	</div>
 </div>

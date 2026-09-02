@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @brief Object to use on Text Pages
- *    (about/aboutThisPublishingSystem/editorialTeam/information/custom pages/privacy/submissions)
+ *    (about/aboutThisPublishingSystem/editorialHistory/information/custom pages/privacy/submissions)
  *
  * @uses $title text to show on Title
  * @uses $content text to show on content

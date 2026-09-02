@@ -41,15 +41,15 @@
 										{translate key="user.register.otherContextRoles"}
 									</legend>
 									{foreach from=$readerUserGroups[$contextId] item=userGroup}
-										{if $userGroup->getPermitSelfRegistration()}
-											{assign var="userGroupId" value=$userGroup->getId()}
+										{if $userGroup->permitSelfRegistration}
+											{assign var="userGroupId" value=$userGroup->id}
 											<div class="form-check form-check-inline">
 												<input type="checkbox" class="form-check-input" name="readerGroup[{$userGroupId}]"
 													id="readerGroup[{$userGroupId}]" {if in_array($userGroupId, $userGroupIds)}
 													checked="checked" {/if} />
 												<label class="form-check-label ammonite-regular-text mb-0"
 													for="readerGroup[{$userGroupId}]">
-													{$userGroup->getLocalizedName()}
+													{$userGroup->getLocalizedData('name')}
 												</label>
 											</div>
 											{if in_array($userGroupId, $userGroupIds)}
@@ -58,15 +58,15 @@
 										{/if}
 									{/foreach}
 									{foreach from=$reviewerUserGroups[$contextId] item=userGroup}
-										{if $userGroup->getPermitSelfRegistration()}
-											{assign var="userGroupId" value=$userGroup->getId()}
+										{if $userGroup->permitSelfRegistration}
+											{assign var="userGroupId" value=$userGroup->id}
 											<div class="form-check form-check-inline">
 												<input type="checkbox" class="form-check-input" name="reviewerGroup[{$userGroupId}]"
 													id="reviewerGroup[{$userGroupId}]" {if in_array($userGroupId, $userGroupIds)}
 													checked="checked" {/if} />
 												<label class="form-check-label ammonite-regular-text mb-0"
 													for="reviewerGroup[{$userGroupId}]">
-													{$userGroup->getLocalizedName()}
+													{$userGroup->getLocalizedData('name')}
 												</label>
 											</div>
 											{if in_array($userGroupId, $userGroupIds)}

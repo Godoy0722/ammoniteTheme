@@ -18,8 +18,8 @@
         {foreach from=$categories item=category}
             <li>
                 <a class="text-decoration-none fw-semibold"
-                    href="{url router=$smarty.const.ROUTE_PAGE page="catalog" op="category" path=$category->path|escape}">
-                    {$category->getLocalizedData('title')|escape}
+                    href="{url router=$smarty.const.ROUTE_PAGE page="catalog" op="category" path=$category->getPath()|escape}">
+                    {$category->getLocalizedTitle()|escape}
                 </a>
             </li>
         {/foreach}
